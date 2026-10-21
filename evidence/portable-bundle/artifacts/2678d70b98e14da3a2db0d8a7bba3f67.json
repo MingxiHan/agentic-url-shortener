@@ -1,0 +1,22 @@
+{
+  "active_seconds": 0.04193416680209339,
+  "calls": 1,
+  "error": null,
+  "handoff": null,
+  "id": "6ca802b467d3",
+  "limitations": [
+    "Local rules support a bounded vocabulary and known source structure; no model inference."
+  ],
+  "mode": "local",
+  "pending": null,
+  "questions": [
+    "Should easier sharing mean optional custom aliases? Specify length bounds and duplicate HTTP 409 behavior."
+  ],
+  "recovery": null,
+  "recovery_child": null,
+  "release": null,
+  "repairs": 0,
+  "revision": 1,
+  "scenario": "ambiguous",
+  "status": "waiting_for_input"
+}

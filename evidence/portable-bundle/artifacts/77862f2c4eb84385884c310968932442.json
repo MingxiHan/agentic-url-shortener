@@ -1,0 +1,30 @@
+{
+  "active_seconds": 3.4033706258051097,
+  "calls": 7,
+  "error": null,
+  "handoff": null,
+  "id": "6ca802b467d3",
+  "limitations": [
+    "Local rules support a bounded vocabulary and known source structure; no model inference."
+  ],
+  "mode": "local",
+  "pending": {
+    "action": "accept",
+    "artifact_id": "6de10280e10541c88a885d8a782fddce",
+    "expected_current": "ab1f3c08ab892420472a701283e0791816458e78c820052685e9eef0a7db155d",
+    "explanation": "Review the exact candidate, actual test evidence, limitations and release manifest.",
+    "hash": "49af67169d3a7eaac3a41be820b1aba19856d168cff914cda1f6d2391a77e338"
+  },
+  "questions": [],
+  "recovery": null,
+  "recovery_child": null,
+  "release": {
+    "hash": "49af67169d3a7eaac3a41be820b1aba19856d168cff914cda1f6d2391a77e338",
+    "id": "6de10280e10541c88a885d8a782fddce",
+    "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/6de10280e10541c88a885d8a782fddce.json"
+  },
+  "repairs": 0,
+  "revision": 2,
+  "scenario": "ambiguous",
+  "status": "waiting_for_approval"
+}

@@ -1,0 +1,26 @@
+{
+  "active_seconds": 0.054268499836325645,
+  "calls": 2,
+  "error": null,
+  "handoff": null,
+  "id": "270d505de031",
+  "limitations": [
+    "Local rules support a bounded vocabulary and known source structure; no model inference."
+  ],
+  "mode": "local",
+  "pending": {
+    "action": "plan",
+    "artifact_id": "2c65e18ed66d44e495baadf954c8bc91",
+    "expected_current": "62759ceac4c4448e340ed1d3d4637711458cd0d70731c0259692cfe103de7452",
+    "explanation": "Review the changed API/acceptance scope or additive schema migration.",
+    "hash": "aadc8980b5050007117c28497d5a62228d040e84563522cc90124585995e07c1"
+  },
+  "questions": [],
+  "recovery": null,
+  "recovery_child": null,
+  "release": null,
+  "repairs": 0,
+  "revision": 1,
+  "scenario": "brownfield",
+  "status": "waiting_for_approval"
+}

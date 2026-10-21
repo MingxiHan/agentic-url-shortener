@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+*.db
+*.db-shm
+*.db-wal
+runs/
+tmp/
+dist/
+.DS_Store
+
+# Local files excluded from publication.
+.idea/
+*.pdf
+*.zip

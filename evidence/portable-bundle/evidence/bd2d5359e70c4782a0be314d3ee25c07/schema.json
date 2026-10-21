@@ -1,0 +1,8 @@
+{
+  "tables": [
+    {
+      "name": "links",
+      "sql": "CREATE TABLE links (code TEXT PRIMARY KEY, target_url TEXT NOT NULL, created_at TEXT NOT NULL, redirect_count INTEGER NOT NULL DEFAULT 0)"
+    }
+  ]
+}

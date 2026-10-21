@@ -1,0 +1,45 @@
+{
+  "greenfield": [
+    "test_core.py::test_create_redirect_stats_and_health",
+    "test_core.py::test_base_url_is_configuration_not_host",
+    "test_core.py::test_invalid_urls_return_422",
+    "test_core.py::test_valid_url_boundaries",
+    "test_core.py::test_missing_links_return_404",
+    "test_core.py::test_collision_attempt_limit_and_recovery",
+    "test_core.py::test_concurrent_redirects_increment_atomically",
+    "test_core.py::test_database_unavailable_returns_503",
+    "test_core.py::test_persists_across_app_instances",
+    "test_core.py::test_failed_count_write_does_not_report_success"
+  ],
+  "brownfield": [
+    "test_core.py::test_create_redirect_stats_and_health",
+    "test_core.py::test_base_url_is_configuration_not_host",
+    "test_core.py::test_invalid_urls_return_422",
+    "test_core.py::test_valid_url_boundaries",
+    "test_core.py::test_missing_links_return_404",
+    "test_core.py::test_collision_attempt_limit_and_recovery",
+    "test_core.py::test_concurrent_redirects_increment_atomically",
+    "test_core.py::test_database_unavailable_returns_503",
+    "test_core.py::test_persists_across_app_instances",
+    "test_core.py::test_failed_count_write_does_not_report_success",
+    "test_expiration.py::test_expiration_boundary_preserves_count_and_stats",
+    "test_expiration.py::test_invalid_expiration_returns_422",
+    "test_expiration.py::test_unexpired_default_and_nullable_expiration",
+    "test_expiration.py::test_additive_migration_preserves_existing_rows"
+  ],
+  "ambiguous": [
+    "test_core.py::test_create_redirect_stats_and_health",
+    "test_core.py::test_base_url_is_configuration_not_host",
+    "test_core.py::test_invalid_urls_return_422",
+    "test_core.py::test_valid_url_boundaries",
+    "test_core.py::test_missing_links_return_404",
+    "test_core.py::test_collision_attempt_limit_and_recovery",
+    "test_core.py::test_concurrent_redirects_increment_atomically",
+    "test_core.py::test_database_unavailable_returns_503",
+    "test_core.py::test_persists_across_app_instances",
+    "test_core.py::test_failed_count_write_does_not_report_success",
+    "test_aliases.py::test_custom_alias_and_omitted_random_default",
+    "test_aliases.py::test_alias_boundaries_and_allowed_characters",
+    "test_aliases.py::test_duplicate_and_reserved_aliases"
+  ]
+}

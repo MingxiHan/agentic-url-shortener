@@ -1,0 +1,346 @@
+{
+  "artifacts": {
+    "api.json": {
+      "path": "/workspace/agentic-url-shortener/evidence/validation/replay/6ca802b467d3/api.json",
+      "sha256": "e618fe7b12823f950060cb23351401ea4e6dff2de6ccbee9d8a9db27615da9e0"
+    },
+    "generated.junit.xml": {
+      "path": "/workspace/agentic-url-shortener/evidence/validation/replay/6ca802b467d3/generated.junit.xml",
+      "sha256": "b309f3c84dad1485ece7b62a7be54cc125b5d01d135eeb7526d8a87eb5331596"
+    },
+    "generated.log": {
+      "path": "/workspace/agentic-url-shortener/evidence/validation/replay/6ca802b467d3/generated.log",
+      "sha256": "fd20ab90ad120c385ee83c1f6b80ccef24ceaf4ababd53725124ecdebf0ca0b3"
+    },
+    "protected.junit.xml": {
+      "path": "/workspace/agentic-url-shortener/evidence/validation/replay/6ca802b467d3/protected.junit.xml",
+      "sha256": "50f516c91ada27e5c611a17580e07ff2a2bf8ce989b4b957238f606eeda88c60"
+    },
+    "protected.log": {
+      "path": "/workspace/agentic-url-shortener/evidence/validation/replay/6ca802b467d3/protected.log",
+      "sha256": "a1205a05c61eabe18f07fe7fd618f423a93d26b34446464c0375f2228533b172"
+    },
+    "schema.json": {
+      "path": "/workspace/agentic-url-shortener/evidence/validation/replay/6ca802b467d3/schema.json",
+      "sha256": "b57545f7bd87890325fd98f2f901504d77888b059f5905aab80b53120c66c591"
+    }
+  },
+  "cli_exit_code": 0,
+  "container": "agentic-shortener-validation-45aec6329bee4b35a6ac388335d4d967",
+  "container_retained": true,
+  "container_state": {
+    "Dead": false,
+    "Error": "",
+    "ExitCode": 0,
+    "FinishedAt": "2026-10-20T04:50:17.244216294Z",
+    "OOMKilled": false,
+    "Paused": false,
+    "Pid": 0,
+    "Restarting": false,
+    "Running": false,
+    "StartedAt": "2026-10-20T04:50:14.101572066Z",
+    "Status": "exited"
+  },
+  "duration_seconds": 3.249,
+  "errors": 0,
+  "evidence": {
+    "suites": {
+      "generated": {
+        "collected": [
+          "test_rule_contract.py::test_rule_clarified_alias_bounds"
+        ],
+        "collection_errors": [],
+        "exit_code": 0,
+        "tests": {
+          "test_rule_contract.py::test_rule_clarified_alias_bounds": {
+            "call": {
+              "duration": 0.05685615696711466,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "setup": {
+              "duration": 0.00033775100018829107,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "teardown": {
+              "duration": 8.67500202730298e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            }
+          }
+        }
+      },
+      "protected": {
+        "collected": [
+          "test_aliases.py::test_custom_alias_and_omitted_random_default",
+          "test_aliases.py::test_alias_boundaries_and_allowed_characters",
+          "test_aliases.py::test_duplicate_and_reserved_aliases",
+          "test_core.py::test_create_redirect_stats_and_health",
+          "test_core.py::test_base_url_is_configuration_not_host",
+          "test_core.py::test_invalid_urls_return_422",
+          "test_core.py::test_valid_url_boundaries",
+          "test_core.py::test_missing_links_return_404",
+          "test_core.py::test_collision_attempt_limit_and_recovery",
+          "test_core.py::test_concurrent_redirects_increment_atomically",
+          "test_core.py::test_database_unavailable_returns_503",
+          "test_core.py::test_persists_across_app_instances",
+          "test_core.py::test_failed_count_write_does_not_report_success"
+        ],
+        "collection_errors": [],
+        "exit_code": 0,
+        "tests": {
+          "test_aliases.py::test_alias_boundaries_and_allowed_characters": {
+            "call": {
+              "duration": 0.0088937190012075,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "setup": {
+              "duration": 3.774999640882015e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "teardown": {
+              "duration": 3.1584000680595636e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            }
+          },
+          "test_aliases.py::test_custom_alias_and_omitted_random_default": {
+            "call": {
+              "duration": 0.050576273992192,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "setup": {
+              "duration": 5.425000563263893e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "teardown": {
+              "duration": 4.7250010538846254e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            }
+          },
+          "test_aliases.py::test_duplicate_and_reserved_aliases": {
+            "call": {
+              "duration": 0.008172718982677907,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "setup": {
+              "duration": 3.083300543949008e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "teardown": {
+              "duration": 2.9458024073392153e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            }
+          },
+          "test_core.py::test_base_url_is_configuration_not_host": {
+            "call": {
+              "duration": 0.002146336017176509,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "setup": {
+              "duration": 6.545800715684891e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "teardown": {
+              "duration": 4.091596929356456e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            }
+          },
+          "test_core.py::test_collision_attempt_limit_and_recovery": {
+            "call": {
+              "duration": 0.006131090980488807,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "setup": {
+              "duration": 3.2540992833673954e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "teardown": {
+              "duration": 2.9999995604157448e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            }
+          },
+          "test_core.py::test_concurrent_redirects_increment_atomically": {
+            "call": {
+              "duration": 0.0414040950126946,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "setup": {
+              "duration": 3.462500171735883e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "teardown": {
+              "duration": 3.7582998629659414e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            }
+          },
+          "test_core.py::test_create_redirect_stats_and_health": {
+            "call": {
+              "duration": 0.00540588196599856,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "setup": {
+              "duration": 3.729201853275299e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "teardown": {
+              "duration": 2.8999987989664078e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            }
+          },
+          "test_core.py::test_database_unavailable_returns_503": {
+            "call": {
+              "duration": 0.003994004975538701,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "setup": {
+              "duration": 3.2999960239976645e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "teardown": {
+              "duration": 8.120801066979766e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            }
+          },
+          "test_core.py::test_failed_count_write_does_not_report_success": {
+            "call": {
+              "duration": 2.0882447410258465,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "setup": {
+              "duration": 3.0540977604687214e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "teardown": {
+              "duration": 0.0002582920133136213,
+              "outcome": "passed",
+              "wasxfail": null
+            }
+          },
+          "test_core.py::test_invalid_urls_return_422": {
+            "call": {
+              "duration": 0.011272888979874551,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "setup": {
+              "duration": 2.716702874749899e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "teardown": {
+              "duration": 2.8916983865201473e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            }
+          },
+          "test_core.py::test_missing_links_return_404": {
+            "call": {
+              "duration": 0.0023991280468180776,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "setup": {
+              "duration": 2.6500027161091566e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "teardown": {
+              "duration": 3.100000321865082e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            }
+          },
+          "test_core.py::test_persists_across_app_instances": {
+            "call": {
+              "duration": 0.007022342004347593,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "setup": {
+              "duration": 3.674998879432678e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "teardown": {
+              "duration": 4.308304050937295e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            }
+          },
+          "test_core.py::test_valid_url_boundaries": {
+            "call": {
+              "duration": 0.0060008830041624606,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "setup": {
+              "duration": 2.8583977837115526e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            },
+            "teardown": {
+              "duration": 2.7915986720472574e-05,
+              "outcome": "passed",
+              "wasxfail": null
+            }
+          }
+        }
+      }
+    },
+    "summary": "Both suites passed",
+    "trusted_fingerprint": "b13e58763bc27214c40c28773ce5af15d8d9e77ff3c4e04b1fb91c44f2ac491b"
+  },
+  "exit_code": 0,
+  "failures": 0,
+  "image_id": "sha256:ed471a596c159017cb40fa7316bfa71dba1d74f5c17f7256b4f1c328096e4ede",
+  "mode": "local",
+  "passed": true,
+  "protected_test_ids": [
+    "test_aliases.py::test_custom_alias_and_omitted_random_default",
+    "test_aliases.py::test_alias_boundaries_and_allowed_characters",
+    "test_aliases.py::test_duplicate_and_reserved_aliases",
+    "test_core.py::test_create_redirect_stats_and_health",
+    "test_core.py::test_base_url_is_configuration_not_host",
+    "test_core.py::test_invalid_urls_return_422",
+    "test_core.py::test_valid_url_boundaries",
+    "test_core.py::test_missing_links_return_404",
+    "test_core.py::test_collision_attempt_limit_and_recovery",
+    "test_core.py::test_concurrent_redirects_increment_atomically",
+    "test_core.py::test_database_unavailable_returns_503",
+    "test_core.py::test_persists_across_app_instances",
+    "test_core.py::test_failed_count_write_does_not_report_success"
+  ],
+  "report_path": "/workspace/agentic-url-shortener/evidence/validation/replay/6ca802b467d3/report.json",
+  "skipped": 0,
+  "summary": "Both suites passed",
+  "termination": null,
+  "tests": 14,
+  "trusted_fingerprint": "b13e58763bc27214c40c28773ce5af15d8d9e77ff3c4e04b1fb91c44f2ac491b"
+}

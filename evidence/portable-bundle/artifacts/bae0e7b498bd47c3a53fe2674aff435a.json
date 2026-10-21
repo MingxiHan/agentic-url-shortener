@@ -1,0 +1,36 @@
+{
+  "candidate": {
+    "manifest": {
+      "files": {
+        "generated_tests/test_rule_contract.py": "22916f019252fda44f83b3c23ed9a9f09123e873059d87746cee6760bdd5d1ea",
+        "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+        "service/shortener/app.py": "7a9ee4bf6b5814eb2ec4f8a64216511238b717706ef0d75049707b471ec216e2"
+      },
+      "hash": "e51fc080641616a1b62142b5711295babca03e73db002d99d67d5f8b84fdd4a9"
+    },
+    "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/candidates/4a6bf6ec99014090b6a3b2650bdf3f00"
+  },
+  "documentation": {
+    "hash": "1889f573c85708c3271d9f6136f08c7c4504a0302c5a9fa42522fb02c932d4c3",
+    "id": "8b4cfa7687cf44e08e9ccc65ce1491da",
+    "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/8b4cfa7687cf44e08e9ccc65ce1491da.json"
+  },
+  "mode": "local",
+  "notice": "Bounded local rule-based generation validated in Docker; no model inference",
+  "plan": {
+    "hash": "2c630d8107358d9ada678a3b6235f3761526b9396b9d24b362451471f09e03d3",
+    "id": "a98684696da34017b91c2635267cc00b",
+    "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/a98684696da34017b91c2635267cc00b.json"
+  },
+  "review": {
+    "hash": "48005b6c85563d911e79de5408445d3617a45d678b0c686a87f87b07e2af5a0d",
+    "id": "ff57ed5bd3fb468a8724aa62bd01c073",
+    "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/ff57ed5bd3fb468a8724aa62bd01c073.json"
+  },
+  "revision": 3,
+  "validation": {
+    "hash": "c19d45f5a75bdbdf5d524d0570dfddb9ed93da3424be73a8b15e5931189fec4b",
+    "id": "bd2d5359e70c4782a0be314d3ee25c07",
+    "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/bd2d5359e70c4782a0be314d3ee25c07.json"
+  }
+}

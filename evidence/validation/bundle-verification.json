@@ -1,0 +1,64 @@
+{
+  "verified": true,
+  "format": "agentic-shortener-evidence-v1",
+  "bundle_path": "evidence/portable-bundle",
+  "notice": "Historical evidence only; verification does not rerun tests or execute candidate code. Local integrity is not signed provenance.",
+  "runs": [
+    "20f124ee360a",
+    "270d505de031",
+    "6ca802b467d3",
+    "9e6bd9e60df1",
+    "c4a516cb56ff"
+  ],
+  "requested_runs": [
+    "c4a516cb56ff",
+    "20f124ee360a",
+    "6ca802b467d3",
+    "9e6bd9e60df1"
+  ],
+  "accepted": [
+    {
+      "run_id": "c4a516cb56ff",
+      "mode": "local",
+      "scenario": "greenfield",
+      "revision": 1,
+      "alias_min": 4,
+      "alias_max": 32,
+      "candidate_path": "evidence/portable-bundle/candidates/898bb86247d5b92fa97e5496e8238865f44dc2aa13b8c39e341621893f7781e7",
+      "candidate_hash": "898bb86247d5b92fa97e5496e8238865f44dc2aa13b8c39e341621893f7781e7"
+    },
+    {
+      "run_id": "20f124ee360a",
+      "mode": "local",
+      "scenario": "brownfield",
+      "revision": 1,
+      "alias_min": 4,
+      "alias_max": 32,
+      "candidate_path": "evidence/portable-bundle/candidates/5afdfd2d81d154013546ea133f2177d6e36820c9a6d90eaa540db8f1c873ac3a",
+      "candidate_hash": "5afdfd2d81d154013546ea133f2177d6e36820c9a6d90eaa540db8f1c873ac3a"
+    },
+    {
+      "run_id": "6ca802b467d3",
+      "mode": "local",
+      "scenario": "ambiguous",
+      "revision": 3,
+      "alias_min": 4,
+      "alias_max": 32,
+      "candidate_path": "evidence/portable-bundle/candidates/e51fc080641616a1b62142b5711295babca03e73db002d99d67d5f8b84fdd4a9",
+      "candidate_hash": "e51fc080641616a1b62142b5711295babca03e73db002d99d67d5f8b84fdd4a9"
+    },
+    {
+      "run_id": "9e6bd9e60df1",
+      "mode": "local",
+      "scenario": "brownfield",
+      "revision": 1,
+      "alias_min": 4,
+      "alias_max": 32,
+      "candidate_path": "evidence/portable-bundle/candidates/892c93d5f5dea959a04e048edf463a157e937cccbf72a3dd78da9dddff186330",
+      "candidate_hash": "892c93d5f5dea959a04e048edf463a157e937cccbf72a3dd78da9dddff186330"
+    }
+  ],
+  "files": 182,
+  "bytes": 1211535,
+  "public_export_notice": "Verified after privacy redaction; no test re-execution is implied."
+}

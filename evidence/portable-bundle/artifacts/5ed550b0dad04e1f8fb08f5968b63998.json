@@ -1,0 +1,31 @@
+{
+  "active_seconds": 3.445441500050947,
+  "calls": 7,
+  "error": null,
+  "handoff": null,
+  "id": "9e6bd9e60df1",
+  "limitations": [
+    "Local rules support a bounded vocabulary and known source structure; no model inference."
+  ],
+  "mode": "local",
+  "pending": null,
+  "questions": [],
+  "recovery": {
+    "actor": "scripted-local-demo-operator",
+    "handoff_hash": "4a4bc92adc75b6a1bc2348cf2e6ebeea649d0e43a1a3141d0feb75346d5ce675",
+    "handoff_id": "f158b06ecec1422e8132f1d5be2296fb",
+    "instructions": "Use the standard bounded budget; preserve the API and current accepted source.",
+    "parent_revision": 1,
+    "parent_run": "270d505de031"
+  },
+  "recovery_child": null,
+  "release": {
+    "hash": "b757fa3937afff5fa12a0e7c4f0b0516a72e13e3ef03f835c5ebcad3694a01d6",
+    "id": "c2cfc7bbe1bd44e383eff916b6fd661e",
+    "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/c2cfc7bbe1bd44e383eff916b6fd661e.json"
+  },
+  "repairs": 0,
+  "revision": 1,
+  "scenario": "brownfield",
+  "status": "succeeded"
+}

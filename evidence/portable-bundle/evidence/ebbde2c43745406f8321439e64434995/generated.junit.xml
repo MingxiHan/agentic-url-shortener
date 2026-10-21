@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="0.171" timestamp="2026-10-20T04:49:37.300160+00:00" hostname="53ebc352d3de"><testcase classname="test_rule_contract" name="test_rule_expiration_addition" time="0.053" /></testsuite></testsuites>

@@ -1,0 +1,125 @@
+{
+  "cleanup": "Superseded modes, their exclusive tests/docs, old evidence sets, duplicate project runtime directories and Python caches removed after final tests and portable replay. The installed environment is retained for offline use.",
+  "post_scenario_changes": {
+    "acceptance/README.md": "Removed stale historical-reference wording; acceptance code and fingerprint unchanged.",
+    "runner/Dockerfile": "Use requirements.txt after removing byte-identical requirements-runner.txt; cached image uses the same pinned package set."
+  },
+  "public_export": {
+    "bundle_verification": {
+      "accepted": 4,
+      "bytes": 1211535,
+      "files": 182,
+      "runs": 5,
+      "verified": true
+    },
+    "date": "2026-10-20",
+    "dependent_hashes_and_references_recomputed": true,
+    "evidence": "Privacy-redacted derivative; original records retained locally.",
+    "notice": "Rebound historical references are not new approvals or a new execution.",
+    "redactions": [
+      "Project directory replaced with a neutral workspace path",
+      "Personal unit-test hostname replaced with validation-host",
+      "Private external-review link omitted from documentation"
+    ],
+    "runtime_source_and_candidate_hashes_unchanged": true,
+    "test_results_and_historical_decisions_unchanged": true
+  },
+  "replay": {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "orchestrator",
+      "verify-bundle",
+      "evidence/portable-bundle",
+      "--rerun",
+      "--output",
+      "evidence/validation/replay"
+    ],
+    "exit_code": 0,
+    "summary": "replay/summary.json"
+  },
+  "scenarios": {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "tools.run_local_scenarios",
+      "--runs-dir",
+      "tmp/scenarios-20261019-clean"
+    ],
+    "exit_code": 0,
+    "initial_attempt": {
+      "exit_code": 1,
+      "reason": "Colima did not share /private/tmp; Docker rejected a bind mount. Repeated unchanged code from the shared project directory."
+    },
+    "summary": "../scenario-summary.json"
+  },
+  "setup_hashes": {
+    ".dockerignore": "dcdcc9480929cf42b61b0036a0710571c824bfe7a69e182a1d57e331eff3d29a",
+    "pyproject.toml": "929586f2de25168188e82ee6c65e05857ecee134702ca3ccdaa5d7865a032402",
+    "requirements.txt": "b01260575a89260d3078b922d8cf89e20dd227acb2e9cba6fb85ff4a3b0055cf"
+  },
+  "source_hashes": {
+    "acceptance/README.md": "a2c219c2755b54178f3f6eb7483b540d4c5748a7740683bf27bdb3b0fcb41ff5",
+    "acceptance/helpers.py": "ba9361c1495716c05c8008e5f9f58bee87b48c6bc76c5c7aa3c245aa670affb8",
+    "acceptance/manifest.json": "6c967014e09e21ec3a5d3f1d91aa73258483735329869acbe6c1f80b1f9472e5",
+    "acceptance/test_aliases.py": "f418320ff3e413b80f1893c8067b1253266f868a4a05955e7ac0938b4acda1ec",
+    "acceptance/test_core.py": "bcba6d41d679ab807999e6ff48ee6c89ec4f51f21e7d64af245c0656c3231b2d",
+    "acceptance/test_expiration.py": "545b6710db8e49848654e5148a888bfea080f4e76e252442ace02091110c980b",
+    "orchestrator/__init__.py": "1af06e9645dd6f346fbdc70c3ebb9d5360bc60c3183182e94e32d52a86e863e7",
+    "orchestrator/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "orchestrator/artifacts.py": "70ca31033dfcaed591e5c5be6ed890ae802d3622ace5edd95e2f1528ffb2507c",
+    "orchestrator/bundle.py": "62f7e264e2a8e7b8ed2e9e8789d0fd3f5937501743817e96ae5dbdca42c030bb",
+    "orchestrator/cli.py": "de5adcc0ca0245e7f882ad350043025f9a12cc76024b8353b5949577afd7a9a0",
+    "orchestrator/contracts.py": "86c32323f954f1adab5fd1ff74f129cc53fd78281a499d5cf7b0f4c359587222",
+    "orchestrator/domain.py": "86c5309ae2d849982d276d40937fd9fb75623466c53b5c5d8feff7d5f7d210fc",
+    "orchestrator/engine.py": "d817cf8ca6f7707ecb63b9c811303ec2ec18c5c8ac4fda3c9ccba020f45fc38f",
+    "orchestrator/local_provider.py": "fcb13bb53288a228f614a4bf654ebc0066c607d1f0a65760646f9191c667ca6b",
+    "orchestrator/metrics.py": "880b1ac82366bfff5ea54772e6f9263472f823180910691b09c79a8ebe36485e",
+    "orchestrator/models.py": "131cb8f88754f92cf262f1cf3f6278e58d7769707aa1818af210ff565b71aea7",
+    "orchestrator/runner.py": "106ab18eea561355b176618f2c2fe6c32dda2ef4968d714389d84ef6fc37f3dd",
+    "orchestrator/store.py": "354696e07111574274781199449b43cd337705d9d977728a1f5906bfe4fc58ef",
+    "orchestrator/templates/core.py.txt": "bdaa6c433a40b79d6e1ae48156ec445a9b20daf780250e7a10d694359350d7e1",
+    "runner/Dockerfile": "60292f3571d8119989d1e025ffd2f28740733c9b832bbfc65aaf23d228c44546",
+    "runner/README.md": "4042e9ed4bc67fc01e317936629c1295f6d16aa8c07d7975e47ae1e4737a9e5e",
+    "runner/export_schema.py": "388c7b26e18683cf62d1741546e36d89cee45815b9e46e2dd6a80b1ca1dd6c64",
+    "runner/harness.py": "f709ca25c895bbc173e6ae97334f55d13427f96f75c171874dc5f53f0db97743",
+    "runner/pytest.ini": "713f986ee48be06ad4bff2a700d39514a9f69e34b3547af52366c0a274e30e5b",
+    "runner/worker.py": "4f6647ce0329d8dec6286533a65dd678f752f5043f573539dcdae2831c7011a3",
+    "skeleton/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+    "skeleton/shortener/app.py": "b2c95bc2f98e2b23bb5219c4078d98f3777352f95c7c471fa504cc617a864693",
+    "tests/test_artifacts.py": "259f19c4020dd264137ae48755be2804f408adf99d56ea07da881da73f359bbc",
+    "tests/test_bundle.py": "cb6192cbde85a1fd76fbb683f2f81a99929f58a4501646ecd830307b6ad209f3",
+    "tests/test_cli_verification.py": "ad57c7cf25d3d38a2382b480379ea1453d16622532107077ead690d2438a41ed",
+    "tests/test_domain.py": "eb977ce1b6745d56f8c47e4620b275ce70bfb4a07859b5f3088efa7be1b96f80",
+    "tests/test_engine_guards.py": "ab079e322bca8c9464c0d94a445b9ebb8a64f40d68ad97ff1bd0c2d593b23014",
+    "tests/test_engine_review_regressions.py": "bc9056de3cd2df34b100e536c2931d1a690c2d68f8233bacf55f821824a01d30",
+    "tests/test_fallback.py": "2e2f6866e08f6194487a67093ca3c69fafd1ce3da8798243f916115883978f49",
+    "tests/test_local_grammar.py": "0e1c38a04c4bfdc6c095da8c34f319a8ea974f04d4b65e78bc4d2c2b3aa6d924",
+    "tests/test_local_mode.py": "700f2d4f54187a0166193042e1837ed1c9e991ef46f279744e21dd737014b813",
+    "tests/test_local_provider.py": "c90ca432746234279a4166c1565f07ff82c11447f04c8f3d271adae52bc4e90c",
+    "tests/test_local_supplementary.py": "154dd28f2ec23a607a7d9ca6e422dbcbf7c4e2c0beb41ecd71acee61abc0e61d",
+    "tests/test_metrics.py": "d550e2f97ad599c46889fcdde238ee2717e49709c4c31fc9e57b767638087c0d",
+    "tests/test_models.py": "586587b05475a9928cdefe3df32c4ec604ee22fb50071518203fd9b4c268c989",
+    "tests/test_runner.py": "e0cdcb89a857d6e0c7e2103c55cf1c5f5ff28d86cd854428ca703ad705c6a257",
+    "tests/test_store.py": "f0bd7e9296d1a6949769cd5192a6d7b01e90f6bf02bb0deec28ecebdfd010ab2",
+    "tools/run_local_scenarios.py": "cce929c5d9edde857b0ec4131c074e6db708dc8763fd8d051974e383456acfc1"
+  },
+  "source_hashes_match_final": true,
+  "unit_tests": {
+    "command": [
+      "/workspace/agentic-url-shortener/.venv/bin/python",
+      "-B",
+      "-m",
+      "pytest",
+      "tests",
+      "-q",
+      "--basetemp=/private/tmp/assessment-final-unit-cb84f7f70c614945b580f70fc08ad628/pytest",
+      "--junitxml=/workspace/agentic-url-shortener/evidence/validation/unit-tests.xml"
+    ],
+    "duration_seconds": 7.630772352218628,
+    "exit_code": 0,
+    "scratch": "/private/tmp/assessment-final-unit-cb84f7f70c614945b580f70fc08ad628"
+  }
+}

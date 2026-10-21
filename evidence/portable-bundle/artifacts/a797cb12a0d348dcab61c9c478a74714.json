@@ -1,0 +1,30 @@
+{
+  "active_seconds": 3.4546474169474095,
+  "calls": 7,
+  "error": null,
+  "handoff": null,
+  "id": "20f124ee360a",
+  "limitations": [
+    "Local rules support a bounded vocabulary and known source structure; no model inference."
+  ],
+  "mode": "local",
+  "pending": {
+    "action": "accept",
+    "artifact_id": "d655abc2aa5f4f55a3b0fbd52508ccdc",
+    "expected_current": "ab1f3c08ab892420472a701283e0791816458e78c820052685e9eef0a7db155d",
+    "explanation": "Review the exact candidate, actual test evidence, limitations and release manifest.",
+    "hash": "6cba1a8c57e6c6739dcfec645755bf53d817706fac1072968f557e2925f6fdba"
+  },
+  "questions": [],
+  "recovery": null,
+  "recovery_child": null,
+  "release": {
+    "hash": "6cba1a8c57e6c6739dcfec645755bf53d817706fac1072968f557e2925f6fdba",
+    "id": "d655abc2aa5f4f55a3b0fbd52508ccdc",
+    "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/d655abc2aa5f4f55a3b0fbd52508ccdc.json"
+  },
+  "repairs": 0,
+  "revision": 1,
+  "scenario": "brownfield",
+  "status": "waiting_for_approval"
+}

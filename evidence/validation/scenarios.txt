@@ -1,0 +1,21 @@
+LOCAL RULE DEMO: actual source transformations and Docker tests; zero API calls. Operator inputs are scripted.
+Scripted release approval: c4a516cb56ff ab1f3c08ab892420472a701283e0791816458e78c820052685e9eef0a7db155d
+Scripted plan approval: 20f124ee360a f95c66598e54424f75d5b6c56bc4e03015e1164e76c8fd2ba014f8158663e551
+Scripted release approval: 20f124ee360a 6cba1a8c57e6c6739dcfec645755bf53d817706fac1072968f557e2925f6fdba
+Scripted plan approval: 6ca802b467d3 cef9cc45f104fdedc09c5acd46a323507b854250518bc494cfd13cc38f0671f0
+Scripted plan approval: 6ca802b467d3 2c630d8107358d9ada678a3b6235f3761526b9396b9d24b362451471f09e03d3
+Scripted release approval: 6ca802b467d3 62759ceac4c4448e340ed1d3d4637711458cd0d70731c0259692cfe103de7452
+Scripted plan approval: 9e6bd9e60df1 dad1ec0791ed62c618880589434ead3885944887a43ce938e1e8d2a0aa92c28d
+Scripted release approval: 9e6bd9e60df1 b757fa3937afff5fa12a0e7c4f0b0516a72e13e3ef03f835c5ebcad3694a01d6
+{
+  "summary": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/scenario-summary.json",
+  "bundle": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/portable-bundle",
+  "verified": true,
+  "runs": [
+    "20f124ee360a",
+    "270d505de031",
+    "6ca802b467d3",
+    "9e6bd9e60df1",
+    "c4a516cb56ff"
+  ]
+}

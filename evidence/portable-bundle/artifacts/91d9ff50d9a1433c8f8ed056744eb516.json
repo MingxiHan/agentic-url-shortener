@@ -1,0 +1,24 @@
+{
+  "active_seconds": 0.09794266684912145,
+  "calls": 2,
+  "error": "Role dispatch budget exhausted",
+  "handoff": {
+    "hash": "4a4bc92adc75b6a1bc2348cf2e6ebeea649d0e43a1a3141d0feb75346d5ce675",
+    "id": "f158b06ecec1422e8132f1d5be2296fb",
+    "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/270d505de031/artifacts/f158b06ecec1422e8132f1d5be2296fb.json"
+  },
+  "id": "270d505de031",
+  "limitations": [
+    "Local rules support a bounded vocabulary and known source structure; no model inference."
+  ],
+  "mode": "local",
+  "pending": null,
+  "questions": [],
+  "recovery": null,
+  "recovery_child": null,
+  "release": null,
+  "repairs": 0,
+  "revision": 1,
+  "scenario": "brownfield",
+  "status": "failed"
+}

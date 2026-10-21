@@ -1,0 +1,30 @@
+{
+  "active_seconds": 3.879448709078133,
+  "calls": 6,
+  "error": null,
+  "handoff": null,
+  "id": "c4a516cb56ff",
+  "limitations": [
+    "Local rules support a bounded vocabulary and known source structure; no model inference."
+  ],
+  "mode": "local",
+  "pending": {
+    "action": "accept",
+    "artifact_id": "f4b51b969f614100ae96d71d0e241798",
+    "expected_current": null,
+    "explanation": "Review the exact candidate, actual test evidence, limitations and release manifest.",
+    "hash": "ab1f3c08ab892420472a701283e0791816458e78c820052685e9eef0a7db155d"
+  },
+  "questions": [],
+  "recovery": null,
+  "recovery_child": null,
+  "release": {
+    "hash": "ab1f3c08ab892420472a701283e0791816458e78c820052685e9eef0a7db155d",
+    "id": "f4b51b969f614100ae96d71d0e241798",
+    "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/f4b51b969f614100ae96d71d0e241798.json"
+  },
+  "repairs": 0,
+  "revision": 1,
+  "scenario": "greenfield",
+  "status": "waiting_for_approval"
+}

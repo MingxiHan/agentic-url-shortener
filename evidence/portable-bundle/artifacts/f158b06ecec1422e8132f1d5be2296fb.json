@@ -1,0 +1,76 @@
+{
+  "baseline": {
+    "hash": "62759ceac4c4448e340ed1d3d4637711458cd0d70731c0259692cfe103de7452",
+    "id": "bae0e7b498bd47c3a53fe2674aff435a",
+    "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/bae0e7b498bd47c3a53fe2674aff435a.json"
+  },
+  "budget_limits": {
+    "active_seconds": 1800,
+    "calls": 2
+  },
+  "budgets": {
+    "active_seconds": 0.09794266684912145,
+    "calls": 2,
+    "repairs": 0,
+    "replans": 0
+  },
+  "candidate": null,
+  "evidence": [
+    {
+      "hash": "77e0aa486bcc165ecebff14b7d082cfe305f72efe82c624a69cd89cdd3d4e93c",
+      "id": "189090a21c1c4f32966518a070d8ad53",
+      "node_id": "normalize",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/270d505de031/artifacts/189090a21c1c4f32966518a070d8ad53.json"
+    },
+    {
+      "hash": "aadc8980b5050007117c28497d5a62228d040e84563522cc90124585995e07c1",
+      "id": "2c65e18ed66d44e495baadf954c8bc91",
+      "node_id": "plan",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/270d505de031/artifacts/2c65e18ed66d44e495baadf954c8bc91.json"
+    },
+    {
+      "hash": "869a8a93f6f1bf156b30c209b7406ef4e86d038da5d1122d565d589126501266",
+      "id": "8ed27d0fbdee4966a4672258a0397c16",
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/270d505de031/artifacts/8ed27d0fbdee4966a4672258a0397c16.json"
+    },
+    {
+      "hash": "cd1e416e48b21d5340574b125c671662e4739ef0114f2e8ed80886c199ddffd1",
+      "id": "535f0ceb45d14369a6e917405faa73f5",
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/270d505de031/artifacts/535f0ceb45d14369a6e917405faa73f5.json"
+    }
+  ],
+  "failed_node": "call:task_expiration_schema",
+  "failure_code": "call_budget_exhausted",
+  "nodes": {
+    "inspect": {
+      "attempts": 0,
+      "status": "passed"
+    },
+    "normalize": {
+      "attempts": 1,
+      "status": "passed"
+    },
+    "plan": {
+      "attempts": 1,
+      "status": "passed"
+    },
+    "task_contract_tests": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "task_expiration": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "task_expiration_schema": {
+      "attempts": 0,
+      "status": "pending"
+    }
+  },
+  "permitted_action": "create_replacement",
+  "reason": "Role dispatch budget exhausted",
+  "revision": 1,
+  "run_id": "270d505de031"
+}

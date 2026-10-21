@@ -1,0 +1,20 @@
+{
+  "active_seconds": 3.455974584678188,
+  "calls": 9,
+  "error": null,
+  "handoff": null,
+  "id": "6ca802b467d3",
+  "limitations": [
+    "Local rules support a bounded vocabulary and known source structure; no model inference."
+  ],
+  "mode": "local",
+  "pending": null,
+  "questions": [],
+  "recovery": null,
+  "recovery_child": null,
+  "release": null,
+  "repairs": 0,
+  "revision": 3,
+  "scenario": "ambiguous",
+  "status": "running"
+}

@@ -1,0 +1,39 @@
+{
+  "evidence_integrity": "verified",
+  "model_calls": 0,
+  "reruns": [
+    {
+      "run_id": "c4a516cb56ff",
+      "mode": "local",
+      "passed": true,
+      "tests": 11,
+      "report_path": "/workspace/agentic-url-shortener/evidence/validation/replay/c4a516cb56ff/report.json",
+      "summary": "Both suites passed"
+    },
+    {
+      "run_id": "20f124ee360a",
+      "mode": "local",
+      "passed": true,
+      "tests": 15,
+      "report_path": "/workspace/agentic-url-shortener/evidence/validation/replay/20f124ee360a/report.json",
+      "summary": "Both suites passed"
+    },
+    {
+      "run_id": "6ca802b467d3",
+      "mode": "local",
+      "passed": true,
+      "tests": 14,
+      "report_path": "/workspace/agentic-url-shortener/evidence/validation/replay/6ca802b467d3/report.json",
+      "summary": "Both suites passed"
+    },
+    {
+      "run_id": "9e6bd9e60df1",
+      "mode": "local",
+      "passed": true,
+      "tests": 16,
+      "report_path": "/workspace/agentic-url-shortener/evidence/validation/replay/9e6bd9e60df1/report.json",
+      "summary": "Both suites passed"
+    }
+  ],
+  "notice": "Fresh execution of submitted candidates; no new model generation."
+}

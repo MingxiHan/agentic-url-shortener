@@ -1,0 +1,6112 @@
+{
+  "accepted": [
+    {
+      "artifact_id": "c2cfc7bbe1bd44e383eff916b6fd661e",
+      "hash": "b757fa3937afff5fa12a0e7c4f0b0516a72e13e3ef03f835c5ebcad3694a01d6",
+      "mode": "local",
+      "run_id": "9e6bd9e60df1"
+    }
+  ],
+  "approvals": [
+    {
+      "action": "accept",
+      "actor": "scripted-local-demo-operator",
+      "decision": "approve",
+      "hash": "ab1f3c08ab892420472a701283e0791816458e78c820052685e9eef0a7db155d",
+      "id": "934fa793d674411eb572c7a28efa426f",
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "timestamp": "2026-10-20T04:49:34.286634+00:00",
+      "valid": 1
+    },
+    {
+      "action": "plan",
+      "actor": "scripted-local-demo-operator",
+      "decision": "approve",
+      "hash": "f95c66598e54424f75d5b6c56bc4e03015e1164e76c8fd2ba014f8158663e551",
+      "id": "002edcce9bcd463c8192bae94833b69a",
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "timestamp": "2026-10-20T04:49:34.360977+00:00",
+      "valid": 1
+    },
+    {
+      "action": "accept",
+      "actor": "scripted-local-demo-operator",
+      "decision": "approve",
+      "hash": "6cba1a8c57e6c6739dcfec645755bf53d817706fac1072968f557e2925f6fdba",
+      "id": "0d1dad1332014cc59a7a6bfac409e4b1",
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "timestamp": "2026-10-20T04:49:37.765638+00:00",
+      "valid": 1
+    },
+    {
+      "action": "plan",
+      "actor": "scripted-local-demo-operator",
+      "decision": "approve",
+      "hash": "cef9cc45f104fdedc09c5acd46a323507b854250518bc494cfd13cc38f0671f0",
+      "id": "35975447061540ecadbc101d37c9c167",
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "timestamp": "2026-10-20T04:49:41.109561+00:00",
+      "valid": 0
+    },
+    {
+      "action": "plan",
+      "actor": "scripted-local-demo-operator",
+      "decision": "approve",
+      "hash": "2c630d8107358d9ada678a3b6235f3761526b9396b9d24b362451471f09e03d3",
+      "id": "17c1eaa41e004538bc0f340a27ae7459",
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "timestamp": "2026-10-20T04:49:44.491000+00:00",
+      "valid": 1
+    },
+    {
+      "action": "accept",
+      "actor": "scripted-local-demo-operator",
+      "decision": "approve",
+      "hash": "62759ceac4c4448e340ed1d3d4637711458cd0d70731c0259692cfe103de7452",
+      "id": "9a3077b6723240faa85f08f87920e1d8",
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "timestamp": "2026-10-20T04:49:47.831678+00:00",
+      "valid": 1
+    },
+    {
+      "action": "plan",
+      "actor": "scripted-local-demo-operator",
+      "decision": "approve",
+      "hash": "aadc8980b5050007117c28497d5a62228d040e84563522cc90124585995e07c1",
+      "id": "1533d462444c482dbbdce9de82f9fa4b",
+      "revision": 1,
+      "run_id": "270d505de031",
+      "timestamp": "2026-10-20T04:49:47.905307+00:00",
+      "valid": 1
+    },
+    {
+      "action": "recover",
+      "actor": "scripted-local-demo-operator",
+      "decision": "approve",
+      "hash": "4a4bc92adc75b6a1bc2348cf2e6ebeea649d0e43a1a3141d0feb75346d5ce675",
+      "id": "1e99c062b56940d68a05bed50d9cfd9d",
+      "revision": 1,
+      "run_id": "270d505de031",
+      "timestamp": "2026-10-20T04:49:47.956174+00:00",
+      "valid": 1
+    },
+    {
+      "action": "plan",
+      "actor": "scripted-local-demo-operator",
+      "decision": "approve",
+      "hash": "dad1ec0791ed62c618880589434ead3885944887a43ce938e1e8d2a0aa92c28d",
+      "id": "e53fec122a6047dc916fae700fd5ef1a",
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "timestamp": "2026-10-20T04:49:48.009293+00:00",
+      "valid": 1
+    },
+    {
+      "action": "accept",
+      "actor": "scripted-local-demo-operator",
+      "decision": "approve",
+      "hash": "b757fa3937afff5fa12a0e7c4f0b0516a72e13e3ef03f835c5ebcad3694a01d6",
+      "id": "fb13d868b3434445b1498c1aca9a1171",
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "timestamp": "2026-10-20T04:49:51.413733+00:00",
+      "valid": 1
+    }
+  ],
+  "artifacts": [
+    {
+      "hash": "e7fcc2f55ee904ca4faf3e3535867567857350948db9e1a8cfcc5af8760881bb",
+      "id": "8a23c82880b449378b2806001ea54763",
+      "inputs": [],
+      "node_id": "normalize",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/8a23c82880b449378b2806001ea54763.json",
+      "revision": 1,
+      "run_id": "c4a516cb56ff"
+    },
+    {
+      "hash": "3e40a3e20f50e58ccf905cf2e07238a45552c51b66004d5320be872359f4c46e",
+      "id": "8869c959010d46aabd207e6bb0303d8d",
+      "inputs": [
+        "8a23c82880b449378b2806001ea54763"
+      ],
+      "node_id": "plan",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/8869c959010d46aabd207e6bb0303d8d.json",
+      "revision": 1,
+      "run_id": "c4a516cb56ff"
+    },
+    {
+      "hash": "a08fe65b069d91a5b802dd6555dfdf52d364a6bd3a737ac0bb9b27ec32ef4d98",
+      "id": "d39d2b3e271945e4ac744537031fc2ba",
+      "inputs": [
+        "8869c959010d46aabd207e6bb0303d8d"
+      ],
+      "node_id": "call:task_core",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/d39d2b3e271945e4ac744537031fc2ba.json",
+      "revision": 1,
+      "run_id": "c4a516cb56ff"
+    },
+    {
+      "hash": "9c4e9034064671979a64b2d7b7b248f3cbd65af76f858b24242f3037c7b4a593",
+      "id": "de00d3fee0c441309e8dbdc489b550d1",
+      "inputs": [
+        "8869c959010d46aabd207e6bb0303d8d"
+      ],
+      "node_id": "call:task_contract_tests",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/de00d3fee0c441309e8dbdc489b550d1.json",
+      "revision": 1,
+      "run_id": "c4a516cb56ff"
+    },
+    {
+      "hash": "352cc36ccc57ca9868a9dac97ccb0d1c4dd7b2d268c7e330784e261efcec3e25",
+      "id": "2b99506b97f546b8b533109722326745",
+      "inputs": [
+        "8869c959010d46aabd207e6bb0303d8d"
+      ],
+      "node_id": "review_0",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/2b99506b97f546b8b533109722326745.json",
+      "revision": 1,
+      "run_id": "c4a516cb56ff"
+    },
+    {
+      "hash": "6eacf04780a9eec2823e6acde5c44e108748599afde1365f3f542beadfbca826",
+      "id": "0f5f9f6e59d7462ea0008c9b958437a8",
+      "inputs": [],
+      "node_id": "validate_0",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/0f5f9f6e59d7462ea0008c9b958437a8.json",
+      "revision": 1,
+      "run_id": "c4a516cb56ff"
+    },
+    {
+      "hash": "f08513aea398d9f9e11d809e79ffe5bae952e7fef51ff57c2d93615a3c086af7",
+      "id": "7e527d697063421cb425bba3fc98a46f",
+      "inputs": [
+        "0f5f9f6e59d7462ea0008c9b958437a8",
+        "2b99506b97f546b8b533109722326745",
+        "8869c959010d46aabd207e6bb0303d8d"
+      ],
+      "node_id": "docs",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/7e527d697063421cb425bba3fc98a46f.json",
+      "revision": 1,
+      "run_id": "c4a516cb56ff"
+    },
+    {
+      "hash": "ab1f3c08ab892420472a701283e0791816458e78c820052685e9eef0a7db155d",
+      "id": "f4b51b969f614100ae96d71d0e241798",
+      "inputs": [
+        "0f5f9f6e59d7462ea0008c9b958437a8",
+        "2b99506b97f546b8b533109722326745",
+        "7e527d697063421cb425bba3fc98a46f",
+        "8869c959010d46aabd207e6bb0303d8d"
+      ],
+      "node_id": "release",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/f4b51b969f614100ae96d71d0e241798.json",
+      "revision": 1,
+      "run_id": "c4a516cb56ff"
+    },
+    {
+      "hash": "a33147716e357e9eb441c6f15557aa87f62f2cefa0021b81ecde59f308493013",
+      "id": "6f49f92cc6f645dfb0e233d96dcf12de",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/6f49f92cc6f645dfb0e233d96dcf12de.json",
+      "revision": 1,
+      "run_id": "c4a516cb56ff"
+    },
+    {
+      "hash": "9c110b14a1c4a38be13d531e798c9d66d723b342f7ea55876144968f5ce72c7c",
+      "id": "71774194e3ca42e7a991bcf0d9b95ba7",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/71774194e3ca42e7a991bcf0d9b95ba7.json",
+      "revision": 1,
+      "run_id": "c4a516cb56ff"
+    },
+    {
+      "hash": "1b2ed105679c9c300b8e387dfdd2a8082df55a00616dc4860b0153512e00724e",
+      "id": "d41c0c4516714f0cba7e5c20f73f99e0",
+      "inputs": [],
+      "node_id": "normalize",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/d41c0c4516714f0cba7e5c20f73f99e0.json",
+      "revision": 1,
+      "run_id": "20f124ee360a"
+    },
+    {
+      "hash": "f95c66598e54424f75d5b6c56bc4e03015e1164e76c8fd2ba014f8158663e551",
+      "id": "6f2659c31406452692aa8e82c61c0671",
+      "inputs": [
+        "d41c0c4516714f0cba7e5c20f73f99e0"
+      ],
+      "node_id": "plan",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/6f2659c31406452692aa8e82c61c0671.json",
+      "revision": 1,
+      "run_id": "20f124ee360a"
+    },
+    {
+      "hash": "ef1ecc20180fd063d4353db5414a7fdb1675a544c4f12902464f18dab66f9b08",
+      "id": "bb8f831e57c8407887b506b1e76e304b",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/bb8f831e57c8407887b506b1e76e304b.json",
+      "revision": 1,
+      "run_id": "20f124ee360a"
+    },
+    {
+      "hash": "a7737da514cfeb464c8deb84d1cf897d3d7691a0d4185eedde39698587bc05ca",
+      "id": "a8faf850de4141e58be1fcfe047d6c4d",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/a8faf850de4141e58be1fcfe047d6c4d.json",
+      "revision": 1,
+      "run_id": "20f124ee360a"
+    },
+    {
+      "hash": "323a7f91e794b423ac7399149ff88b66e74bb333669ba57c7cd8bd2d0639ae35",
+      "id": "8954a6ed12454997ad89011e99386c54",
+      "inputs": [
+        "6f2659c31406452692aa8e82c61c0671"
+      ],
+      "node_id": "call:task_expiration_schema",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/8954a6ed12454997ad89011e99386c54.json",
+      "revision": 1,
+      "run_id": "20f124ee360a"
+    },
+    {
+      "hash": "5a46053fed2f9006eaf25d520191522eb6c98839b44ebaf1d851717dc251ff62",
+      "id": "c4d04bf092894fefb2c403f1a5c1a5ce",
+      "inputs": [
+        "6f2659c31406452692aa8e82c61c0671"
+      ],
+      "node_id": "call:task_contract_tests",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/c4d04bf092894fefb2c403f1a5c1a5ce.json",
+      "revision": 1,
+      "run_id": "20f124ee360a"
+    },
+    {
+      "hash": "c39ce184ed705928271297443a637150929724eaf260a74d532cf4fb59301efc",
+      "id": "18fc083c2a4540fd80164b745857e087",
+      "inputs": [
+        "6f2659c31406452692aa8e82c61c0671"
+      ],
+      "node_id": "call:task_expiration",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/18fc083c2a4540fd80164b745857e087.json",
+      "revision": 1,
+      "run_id": "20f124ee360a"
+    },
+    {
+      "hash": "63b1a4d489783a03bae6d739adb0717bcf667cbc362056b7038a6d33ad8ffac2",
+      "id": "5c2ac85938ba48239e5a1af6d47f4275",
+      "inputs": [
+        "6f2659c31406452692aa8e82c61c0671"
+      ],
+      "node_id": "review_0",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/5c2ac85938ba48239e5a1af6d47f4275.json",
+      "revision": 1,
+      "run_id": "20f124ee360a"
+    },
+    {
+      "hash": "b6d60eb9ecc846fe393bbaa7c51ab13eda27cc5715555105d6c5cc634d4663a2",
+      "id": "ebbde2c43745406f8321439e64434995",
+      "inputs": [],
+      "node_id": "validate_0",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/ebbde2c43745406f8321439e64434995.json",
+      "revision": 1,
+      "run_id": "20f124ee360a"
+    },
+    {
+      "hash": "700256caa2e36f46867ff95779b20d6af3208eb18a6a138817f9907315df253e",
+      "id": "1c25ac558f914622bb32605a96d24fe6",
+      "inputs": [
+        "ebbde2c43745406f8321439e64434995",
+        "5c2ac85938ba48239e5a1af6d47f4275",
+        "6f2659c31406452692aa8e82c61c0671"
+      ],
+      "node_id": "docs",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/1c25ac558f914622bb32605a96d24fe6.json",
+      "revision": 1,
+      "run_id": "20f124ee360a"
+    },
+    {
+      "hash": "6cba1a8c57e6c6739dcfec645755bf53d817706fac1072968f557e2925f6fdba",
+      "id": "d655abc2aa5f4f55a3b0fbd52508ccdc",
+      "inputs": [
+        "ebbde2c43745406f8321439e64434995",
+        "5c2ac85938ba48239e5a1af6d47f4275",
+        "1c25ac558f914622bb32605a96d24fe6",
+        "6f2659c31406452692aa8e82c61c0671"
+      ],
+      "node_id": "release",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/d655abc2aa5f4f55a3b0fbd52508ccdc.json",
+      "revision": 1,
+      "run_id": "20f124ee360a"
+    },
+    {
+      "hash": "db32591efe187a1acaf11257119047327d15ed28c7daf3eea718131217e40077",
+      "id": "a797cb12a0d348dcab61c9c478a74714",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/a797cb12a0d348dcab61c9c478a74714.json",
+      "revision": 1,
+      "run_id": "20f124ee360a"
+    },
+    {
+      "hash": "7567e4068268a8578ab50cee0131770514259a2d4ee6ca501c48e3b059f79d22",
+      "id": "72fb5ea8e800428cafb7c44d0bb6da9b",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/72fb5ea8e800428cafb7c44d0bb6da9b.json",
+      "revision": 1,
+      "run_id": "20f124ee360a"
+    },
+    {
+      "hash": "583e797ab5a193b15524d7924ba38e8c9026044bb4852f1bdaaddcc6094767e7",
+      "id": "13df0ed43f454381974d6713989f09d4",
+      "inputs": [],
+      "node_id": "normalize",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/13df0ed43f454381974d6713989f09d4.json",
+      "revision": 1,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "72bd2c1e82d528b1fb4aeb7ef1d261bfb92e2a629e0af4ddf0a55007c62d0401",
+      "id": "2678d70b98e14da3a2db0d8a7bba3f67",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/2678d70b98e14da3a2db0d8a7bba3f67.json",
+      "revision": 1,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "06a57667318e2e06c96e7111767a9145a91cf60df4660cd0ca94a4f3f5fca1a2",
+      "id": "b4d55366f5de4303b1a02c5c79c425d0",
+      "inputs": [],
+      "node_id": "normalize",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/b4d55366f5de4303b1a02c5c79c425d0.json",
+      "revision": 2,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "cef9cc45f104fdedc09c5acd46a323507b854250518bc494cfd13cc38f0671f0",
+      "id": "24e40a0652b24b50981ca287687854b6",
+      "inputs": [
+        "b4d55366f5de4303b1a02c5c79c425d0"
+      ],
+      "node_id": "plan",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/24e40a0652b24b50981ca287687854b6.json",
+      "revision": 2,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "3c0a1c4522fb62b0d483cd7d168726f87c49ef5dc4f979a28c77aace7df28b53",
+      "id": "39e18ee615a5441f9ed0fba53b0d2d22",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/39e18ee615a5441f9ed0fba53b0d2d22.json",
+      "revision": 2,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "2178b539e3820fb32dd071026881a1762463600a79d85ab3d389344eb3751664",
+      "id": "6e58ea4c94624554b7afe3bcae092626",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/6e58ea4c94624554b7afe3bcae092626.json",
+      "revision": 2,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "a00a63919592ab31ec7fba09eb4d6db202f1e8bdf818d9e0c2aaa14421e76ecf",
+      "id": "7401526fc81d43d5b4df8828945fe027",
+      "inputs": [
+        "24e40a0652b24b50981ca287687854b6"
+      ],
+      "node_id": "call:task_aliases",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/7401526fc81d43d5b4df8828945fe027.json",
+      "revision": 2,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "076f0567d5037d33c136e3e4dc2f3061d669d7fd415c39bc15261de673b7a33e",
+      "id": "97fef8c95d47416294387f1abd1b4dd0",
+      "inputs": [
+        "24e40a0652b24b50981ca287687854b6"
+      ],
+      "node_id": "call:task_contract_tests",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/97fef8c95d47416294387f1abd1b4dd0.json",
+      "revision": 2,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "5beacfb9a323ed835aee610b4852858d348bce456c3d4738a87582c287f18b18",
+      "id": "9c49e1213ef74b659da4314eefd26aa5",
+      "inputs": [
+        "24e40a0652b24b50981ca287687854b6"
+      ],
+      "node_id": "review_0",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/9c49e1213ef74b659da4314eefd26aa5.json",
+      "revision": 2,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "8b7821ec7239bfeed491eed7c923bb2df0039345fef08e3e5c9afaf6707811a3",
+      "id": "2b7ab00fe2c84d738a1ad49dfe6be362",
+      "inputs": [],
+      "node_id": "validate_0",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/2b7ab00fe2c84d738a1ad49dfe6be362.json",
+      "revision": 2,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "9b7685af7ef1bd6a86bbacaa7f818f16faded26a944481f1dfe2ae0690381e65",
+      "id": "588aad50d63949fb8904aa932ea589ab",
+      "inputs": [
+        "2b7ab00fe2c84d738a1ad49dfe6be362",
+        "9c49e1213ef74b659da4314eefd26aa5",
+        "24e40a0652b24b50981ca287687854b6"
+      ],
+      "node_id": "docs",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/588aad50d63949fb8904aa932ea589ab.json",
+      "revision": 2,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "49af67169d3a7eaac3a41be820b1aba19856d168cff914cda1f6d2391a77e338",
+      "id": "6de10280e10541c88a885d8a782fddce",
+      "inputs": [
+        "2b7ab00fe2c84d738a1ad49dfe6be362",
+        "9c49e1213ef74b659da4314eefd26aa5",
+        "588aad50d63949fb8904aa932ea589ab",
+        "24e40a0652b24b50981ca287687854b6"
+      ],
+      "node_id": "release",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/6de10280e10541c88a885d8a782fddce.json",
+      "revision": 2,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "0e63d8c419edf03672659addcd589d16e841d0deccd829b60617b24f1eed68f6",
+      "id": "77862f2c4eb84385884c310968932442",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/77862f2c4eb84385884c310968932442.json",
+      "revision": 2,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "0ef792ea145a53a89071a77991d29a0827ab27e9f5dcc7d1d2883518746551e5",
+      "id": "f52769769d8b42c6a00001fb022e97d3",
+      "inputs": [],
+      "node_id": "normalize",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/f52769769d8b42c6a00001fb022e97d3.json",
+      "revision": 3,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "2c630d8107358d9ada678a3b6235f3761526b9396b9d24b362451471f09e03d3",
+      "id": "a98684696da34017b91c2635267cc00b",
+      "inputs": [
+        "f52769769d8b42c6a00001fb022e97d3"
+      ],
+      "node_id": "plan",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/a98684696da34017b91c2635267cc00b.json",
+      "revision": 3,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "e640459c723fde1517bccdc10588d32590ac438376780e323c8baa4e676f840b",
+      "id": "75917b69e1e049f29b9d5ee5342e70fa",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/75917b69e1e049f29b9d5ee5342e70fa.json",
+      "revision": 3,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "6acd423e5aa68da99bd2e155ea054f89878f966efbd67ea1854eeb1d8d8d0775",
+      "id": "0431263e92b84276956f17a3097cb39d",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/0431263e92b84276956f17a3097cb39d.json",
+      "revision": 3,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "e2cf238dadee9e568d79dc66dc95e2007513bd6fc778f27a5c9b46894638eaea",
+      "id": "0f6ad16061644ee5a7ce2068612085a0",
+      "inputs": [
+        "a98684696da34017b91c2635267cc00b"
+      ],
+      "node_id": "call:task_aliases",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/0f6ad16061644ee5a7ce2068612085a0.json",
+      "revision": 3,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "94acdfb1abb2677c53473251a03c3e2324e859f94291be7d82702cded956d1e8",
+      "id": "978faf7867c64ce3baf607a911983fa9",
+      "inputs": [
+        "a98684696da34017b91c2635267cc00b"
+      ],
+      "node_id": "call:task_contract_tests",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/978faf7867c64ce3baf607a911983fa9.json",
+      "revision": 3,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "48005b6c85563d911e79de5408445d3617a45d678b0c686a87f87b07e2af5a0d",
+      "id": "ff57ed5bd3fb468a8724aa62bd01c073",
+      "inputs": [
+        "a98684696da34017b91c2635267cc00b"
+      ],
+      "node_id": "review_0",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/ff57ed5bd3fb468a8724aa62bd01c073.json",
+      "revision": 3,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "c19d45f5a75bdbdf5d524d0570dfddb9ed93da3424be73a8b15e5931189fec4b",
+      "id": "bd2d5359e70c4782a0be314d3ee25c07",
+      "inputs": [],
+      "node_id": "validate_0",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/bd2d5359e70c4782a0be314d3ee25c07.json",
+      "revision": 3,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "1889f573c85708c3271d9f6136f08c7c4504a0302c5a9fa42522fb02c932d4c3",
+      "id": "8b4cfa7687cf44e08e9ccc65ce1491da",
+      "inputs": [
+        "bd2d5359e70c4782a0be314d3ee25c07",
+        "ff57ed5bd3fb468a8724aa62bd01c073",
+        "a98684696da34017b91c2635267cc00b"
+      ],
+      "node_id": "docs",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/8b4cfa7687cf44e08e9ccc65ce1491da.json",
+      "revision": 3,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "62759ceac4c4448e340ed1d3d4637711458cd0d70731c0259692cfe103de7452",
+      "id": "bae0e7b498bd47c3a53fe2674aff435a",
+      "inputs": [
+        "bd2d5359e70c4782a0be314d3ee25c07",
+        "ff57ed5bd3fb468a8724aa62bd01c073",
+        "8b4cfa7687cf44e08e9ccc65ce1491da",
+        "a98684696da34017b91c2635267cc00b"
+      ],
+      "node_id": "release",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/bae0e7b498bd47c3a53fe2674aff435a.json",
+      "revision": 3,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "0f4cf11cb4f4d315afea7380f1525c4bf13ca1933673e37f922e6209fe75eab6",
+      "id": "3380238639e34c24bfbcffa00d0aaeb4",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/3380238639e34c24bfbcffa00d0aaeb4.json",
+      "revision": 3,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "fe62f67dd077587638866cd84f3fd41f674741223fa293696680e5d99470f063",
+      "id": "42597e52d65444f7bd1b91e3e21b6825",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/42597e52d65444f7bd1b91e3e21b6825.json",
+      "revision": 3,
+      "run_id": "6ca802b467d3"
+    },
+    {
+      "hash": "77e0aa486bcc165ecebff14b7d082cfe305f72efe82c624a69cd89cdd3d4e93c",
+      "id": "189090a21c1c4f32966518a070d8ad53",
+      "inputs": [],
+      "node_id": "normalize",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/270d505de031/artifacts/189090a21c1c4f32966518a070d8ad53.json",
+      "revision": 1,
+      "run_id": "270d505de031"
+    },
+    {
+      "hash": "aadc8980b5050007117c28497d5a62228d040e84563522cc90124585995e07c1",
+      "id": "2c65e18ed66d44e495baadf954c8bc91",
+      "inputs": [
+        "189090a21c1c4f32966518a070d8ad53"
+      ],
+      "node_id": "plan",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/270d505de031/artifacts/2c65e18ed66d44e495baadf954c8bc91.json",
+      "revision": 1,
+      "run_id": "270d505de031"
+    },
+    {
+      "hash": "869a8a93f6f1bf156b30c209b7406ef4e86d038da5d1122d565d589126501266",
+      "id": "8ed27d0fbdee4966a4672258a0397c16",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/270d505de031/artifacts/8ed27d0fbdee4966a4672258a0397c16.json",
+      "revision": 1,
+      "run_id": "270d505de031"
+    },
+    {
+      "hash": "cd1e416e48b21d5340574b125c671662e4739ef0114f2e8ed80886c199ddffd1",
+      "id": "535f0ceb45d14369a6e917405faa73f5",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/270d505de031/artifacts/535f0ceb45d14369a6e917405faa73f5.json",
+      "revision": 1,
+      "run_id": "270d505de031"
+    },
+    {
+      "hash": "4a4bc92adc75b6a1bc2348cf2e6ebeea649d0e43a1a3141d0feb75346d5ce675",
+      "id": "f158b06ecec1422e8132f1d5be2296fb",
+      "inputs": [
+        "189090a21c1c4f32966518a070d8ad53",
+        "2c65e18ed66d44e495baadf954c8bc91",
+        "8ed27d0fbdee4966a4672258a0397c16",
+        "535f0ceb45d14369a6e917405faa73f5"
+      ],
+      "node_id": "handoff",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/270d505de031/artifacts/f158b06ecec1422e8132f1d5be2296fb.json",
+      "revision": 1,
+      "run_id": "270d505de031"
+    },
+    {
+      "hash": "bb376892fc730bfbec733aa33aff5b87938e6757e3520fb905b00db317bc8b9f",
+      "id": "91d9ff50d9a1433c8f8ed056744eb516",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/270d505de031/artifacts/91d9ff50d9a1433c8f8ed056744eb516.json",
+      "revision": 1,
+      "run_id": "270d505de031"
+    },
+    {
+      "hash": "9d5d520e9fe06ac0d3663467fe78c172e46422875c7513b51ea832ebb4422b04",
+      "id": "4467ea3aa8314a2dae6d7f96e1bffcac",
+      "inputs": [],
+      "node_id": "normalize",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/4467ea3aa8314a2dae6d7f96e1bffcac.json",
+      "revision": 1,
+      "run_id": "9e6bd9e60df1"
+    },
+    {
+      "hash": "dad1ec0791ed62c618880589434ead3885944887a43ce938e1e8d2a0aa92c28d",
+      "id": "95fe1933fd4c438cbcc47bf05f56a41b",
+      "inputs": [
+        "4467ea3aa8314a2dae6d7f96e1bffcac"
+      ],
+      "node_id": "plan",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/95fe1933fd4c438cbcc47bf05f56a41b.json",
+      "revision": 1,
+      "run_id": "9e6bd9e60df1"
+    },
+    {
+      "hash": "e5dfb9d10b40414cb455d5d931feacaa2b2c769a346e47229cf16f3b275009c7",
+      "id": "ec52d34b961c45018dd1898427a8a035",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/ec52d34b961c45018dd1898427a8a035.json",
+      "revision": 1,
+      "run_id": "9e6bd9e60df1"
+    },
+    {
+      "hash": "a93aa12dd461868f6b3ed7c7c0644dbeea36d33d4b7a5cae61b2cc0e7954a935",
+      "id": "c9055596172d4a7f80659627b4ca5e1b",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/c9055596172d4a7f80659627b4ca5e1b.json",
+      "revision": 1,
+      "run_id": "9e6bd9e60df1"
+    },
+    {
+      "hash": "948ecf3268dd49ac624ea84ba6f4d3c4ef913bf4a05470f869a86cfd544ad30d",
+      "id": "efc279a2954c49a49bf285b8beed8414",
+      "inputs": [
+        "95fe1933fd4c438cbcc47bf05f56a41b"
+      ],
+      "node_id": "call:task_expiration_schema",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/efc279a2954c49a49bf285b8beed8414.json",
+      "revision": 1,
+      "run_id": "9e6bd9e60df1"
+    },
+    {
+      "hash": "6a6b4770d8e44b54a746fe6428ff810cb26ae47e164dafdcf0c225dab8eee86e",
+      "id": "6d2dd05e375242a69b78563c8ed2a40c",
+      "inputs": [
+        "95fe1933fd4c438cbcc47bf05f56a41b"
+      ],
+      "node_id": "call:task_contract_tests",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/6d2dd05e375242a69b78563c8ed2a40c.json",
+      "revision": 1,
+      "run_id": "9e6bd9e60df1"
+    },
+    {
+      "hash": "1a42eb1b302e944e1f09561a6d01dd38a5886a65b912b6c609881078552e7d2f",
+      "id": "ed8f78fd8e6d4c23a5eec43067c0b94b",
+      "inputs": [
+        "95fe1933fd4c438cbcc47bf05f56a41b"
+      ],
+      "node_id": "call:task_expiration",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/ed8f78fd8e6d4c23a5eec43067c0b94b.json",
+      "revision": 1,
+      "run_id": "9e6bd9e60df1"
+    },
+    {
+      "hash": "0f90958a2cb1c29f0e3fd89d3910758e730f1436affa4457692219da6249c58d",
+      "id": "94340679833646d08bc134edcaf29c18",
+      "inputs": [
+        "95fe1933fd4c438cbcc47bf05f56a41b"
+      ],
+      "node_id": "review_0",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/94340679833646d08bc134edcaf29c18.json",
+      "revision": 1,
+      "run_id": "9e6bd9e60df1"
+    },
+    {
+      "hash": "56545ac1270d8449914fb1d8a5d8d4187744f4a4ddbfe4d2a2e1976a37b4908f",
+      "id": "72c721b2297144888f8786b41a3e6d3d",
+      "inputs": [],
+      "node_id": "validate_0",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/72c721b2297144888f8786b41a3e6d3d.json",
+      "revision": 1,
+      "run_id": "9e6bd9e60df1"
+    },
+    {
+      "hash": "e4cd0a7a89452557ce5df8f1617ff5ad5497e6f9aec7e95d24fe550ee875c2ee",
+      "id": "5f33d931cfc24df7a50f846f6bdddd2a",
+      "inputs": [
+        "72c721b2297144888f8786b41a3e6d3d",
+        "94340679833646d08bc134edcaf29c18",
+        "95fe1933fd4c438cbcc47bf05f56a41b"
+      ],
+      "node_id": "docs",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/5f33d931cfc24df7a50f846f6bdddd2a.json",
+      "revision": 1,
+      "run_id": "9e6bd9e60df1"
+    },
+    {
+      "hash": "b757fa3937afff5fa12a0e7c4f0b0516a72e13e3ef03f835c5ebcad3694a01d6",
+      "id": "c2cfc7bbe1bd44e383eff916b6fd661e",
+      "inputs": [
+        "72c721b2297144888f8786b41a3e6d3d",
+        "94340679833646d08bc134edcaf29c18",
+        "5f33d931cfc24df7a50f846f6bdddd2a",
+        "95fe1933fd4c438cbcc47bf05f56a41b"
+      ],
+      "node_id": "release",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/c2cfc7bbe1bd44e383eff916b6fd661e.json",
+      "revision": 1,
+      "run_id": "9e6bd9e60df1"
+    },
+    {
+      "hash": "18abe87021a8d555fa3540448b16a787ecb14e8eb39b3b25f6993678b5ec7c37",
+      "id": "c17c31b7a41541cea2b8b7ecb6d821e6",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/c17c31b7a41541cea2b8b7ecb6d821e6.json",
+      "revision": 1,
+      "run_id": "9e6bd9e60df1"
+    },
+    {
+      "hash": "8bce928870020199a73b6645bfff66d35619bf4d5b7553615323b32a78564db1",
+      "id": "5ed550b0dad04e1f8fb08f5968b63998",
+      "inputs": [],
+      "node_id": "summary",
+      "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/5ed550b0dad04e1f8fb08f5968b63998.json",
+      "revision": 1,
+      "run_id": "9e6bd9e60df1"
+    }
+  ],
+  "events": [
+    {
+      "kind": "run_created",
+      "payload": {
+        "mode": "local",
+        "scenario": "greenfield"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 1,
+      "timestamp": "2026-10-20T04:49:30.400225+00:00"
+    },
+    {
+      "kind": "preflight_passed",
+      "payload": {
+        "available": true,
+        "engine_version": "29.5.2",
+        "image": "agentic-shortener-runner:local",
+        "image_id": "sha256:ed471a596c159017cb40fa7316bfa71dba1d74f5c17f7256b4f1c328096e4ede",
+        "mode": "local"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 2,
+      "timestamp": "2026-10-20T04:49:30.450194+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 3,
+      "timestamp": "2026-10-20T04:49:30.451067+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 4,
+      "timestamp": "2026-10-20T04:49:30.452085+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [],
+        "node": "normalize"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 5,
+      "timestamp": "2026-10-20T04:49:30.452474+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "normalize",
+        "role": "normalize"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 6,
+      "timestamp": "2026-10-20T04:49:30.452749+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [],
+        "node": "normalize"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 7,
+      "timestamp": "2026-10-20T04:49:30.456871+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "base"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 8,
+      "timestamp": "2026-10-20T04:49:30.459069+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "normalize"
+        ],
+        "node": "inspect"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 9,
+      "timestamp": "2026-10-20T04:49:30.459582+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 10,
+      "timestamp": "2026-10-20T04:49:30.460745+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "inspect"
+        ],
+        "node": "plan"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 11,
+      "timestamp": "2026-10-20T04:49:30.461256+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "plan",
+        "role": "planner"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 12,
+      "timestamp": "2026-10-20T04:49:30.461623+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "inspect"
+        ],
+        "node": "plan"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 13,
+      "timestamp": "2026-10-20T04:49:30.465221+00:00"
+    },
+    {
+      "kind": "node_pending",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_core"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 14,
+      "timestamp": "2026-10-20T04:49:30.465807+00:00"
+    },
+    {
+      "kind": "node_pending",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_contract_tests"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 15,
+      "timestamp": "2026-10-20T04:49:30.466194+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 16,
+      "timestamp": "2026-10-20T04:49:30.467821+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_core"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 17,
+      "timestamp": "2026-10-20T04:49:30.468221+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "call:task_core",
+        "role": "builder"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 18,
+      "timestamp": "2026-10-20T04:49:30.468536+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 19,
+      "timestamp": "2026-10-20T04:49:30.470055+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_contract_tests"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 20,
+      "timestamp": "2026-10-20T04:49:30.470470+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "call:task_contract_tests",
+        "role": "verifier"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 21,
+      "timestamp": "2026-10-20T04:49:30.470742+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_core"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 22,
+      "timestamp": "2026-10-20T04:49:30.483703+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_core"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 23,
+      "timestamp": "2026-10-20T04:49:30.486012+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_contract_tests"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 24,
+      "timestamp": "2026-10-20T04:49:30.487056+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_contract_tests"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 25,
+      "timestamp": "2026-10-20T04:49:30.489766+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "task_core",
+          "task_contract_tests"
+        ],
+        "node": "assemble"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 26,
+      "timestamp": "2026-10-20T04:49:30.495747+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "candidate"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 27,
+      "timestamp": "2026-10-20T04:49:30.497065+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "validate_0"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 28,
+      "timestamp": "2026-10-20T04:49:30.503586+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 29,
+      "timestamp": "2026-10-20T04:49:30.509173+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "review_0"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 30,
+      "timestamp": "2026-10-20T04:49:30.509646+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "review_0",
+        "role": "reviewer"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 31,
+      "timestamp": "2026-10-20T04:49:30.511878+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "review_0"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 32,
+      "timestamp": "2026-10-20T04:49:30.522955+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "validate_0"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 33,
+      "timestamp": "2026-10-20T04:49:34.275099+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "validate_0",
+          "review_0"
+        ],
+        "node": "validation_join"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 34,
+      "timestamp": "2026-10-20T04:49:34.275659+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 35,
+      "timestamp": "2026-10-20T04:49:34.276925+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "validation_join"
+        ],
+        "node": "docs"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 36,
+      "timestamp": "2026-10-20T04:49:34.277231+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "docs",
+        "role": "documenter"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 37,
+      "timestamp": "2026-10-20T04:49:34.277431+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "validation_join"
+        ],
+        "node": "docs"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 38,
+      "timestamp": "2026-10-20T04:49:34.278888+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "release"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 39,
+      "timestamp": "2026-10-20T04:49:34.279697+00:00"
+    },
+    {
+      "kind": "approval_requested",
+      "payload": {
+        "keys": [
+          "pending"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 40,
+      "timestamp": "2026-10-20T04:49:34.280107+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "active_seconds"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 41,
+      "timestamp": "2026-10-20T04:49:34.280514+00:00"
+    },
+    {
+      "kind": "execution_finished",
+      "payload": {
+        "duration_seconds": 3.879448709078133
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 42,
+      "timestamp": "2026-10-20T04:49:34.280708+00:00"
+    },
+    {
+      "kind": "human_decision",
+      "payload": {
+        "action": "accept",
+        "actor": "scripted-local-demo-operator",
+        "decision": "approve",
+        "hash": "ab1f3c08ab892420472a701283e0791816458e78c820052685e9eef0a7db155d"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "seq": 43,
+      "timestamp": "2026-10-20T04:49:34.286697+00:00"
+    },
+    {
+      "kind": "run_created",
+      "payload": {
+        "mode": "local",
+        "scenario": "brownfield"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 44,
+      "timestamp": "2026-10-20T04:49:34.301145+00:00"
+    },
+    {
+      "kind": "preflight_passed",
+      "payload": {
+        "available": true,
+        "engine_version": "29.5.2",
+        "image": "agentic-shortener-runner:local",
+        "image_id": "sha256:ed471a596c159017cb40fa7316bfa71dba1d74f5c17f7256b4f1c328096e4ede",
+        "mode": "local"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 45,
+      "timestamp": "2026-10-20T04:49:34.342944+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 46,
+      "timestamp": "2026-10-20T04:49:34.343751+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 47,
+      "timestamp": "2026-10-20T04:49:34.344819+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [],
+        "node": "normalize"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 48,
+      "timestamp": "2026-10-20T04:49:34.345349+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "normalize",
+        "role": "normalize"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 49,
+      "timestamp": "2026-10-20T04:49:34.345616+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [],
+        "node": "normalize"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 50,
+      "timestamp": "2026-10-20T04:49:34.347241+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "base"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 51,
+      "timestamp": "2026-10-20T04:49:34.349956+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "normalize"
+        ],
+        "node": "inspect"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 52,
+      "timestamp": "2026-10-20T04:49:34.350316+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 53,
+      "timestamp": "2026-10-20T04:49:34.351487+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "inspect"
+        ],
+        "node": "plan"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 54,
+      "timestamp": "2026-10-20T04:49:34.351814+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "plan",
+        "role": "planner"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 55,
+      "timestamp": "2026-10-20T04:49:34.352081+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "inspect"
+        ],
+        "node": "plan"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 56,
+      "timestamp": "2026-10-20T04:49:34.357623+00:00"
+    },
+    {
+      "kind": "node_pending",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_expiration_schema"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 57,
+      "timestamp": "2026-10-20T04:49:34.358005+00:00"
+    },
+    {
+      "kind": "node_pending",
+      "payload": {
+        "dependencies": [
+          "task_expiration_schema"
+        ],
+        "node": "task_expiration"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 58,
+      "timestamp": "2026-10-20T04:49:34.358298+00:00"
+    },
+    {
+      "kind": "node_pending",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_contract_tests"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 59,
+      "timestamp": "2026-10-20T04:49:34.358627+00:00"
+    },
+    {
+      "kind": "approval_requested",
+      "payload": {
+        "keys": [
+          "pending"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 60,
+      "timestamp": "2026-10-20T04:49:34.359101+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "active_seconds"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 61,
+      "timestamp": "2026-10-20T04:49:34.359473+00:00"
+    },
+    {
+      "kind": "execution_finished",
+      "payload": {
+        "duration_seconds": 0.05757874995470047
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 62,
+      "timestamp": "2026-10-20T04:49:34.359662+00:00"
+    },
+    {
+      "kind": "human_decision",
+      "payload": {
+        "action": "plan",
+        "actor": "scripted-local-demo-operator",
+        "decision": "approve",
+        "hash": "f95c66598e54424f75d5b6c56bc4e03015e1164e76c8fd2ba014f8158663e551"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 63,
+      "timestamp": "2026-10-20T04:49:34.361060+00:00"
+    },
+    {
+      "kind": "preflight_passed",
+      "payload": {
+        "available": true,
+        "engine_version": "29.5.2",
+        "image": "agentic-shortener-runner:local",
+        "image_id": "sha256:ed471a596c159017cb40fa7316bfa71dba1d74f5c17f7256b4f1c328096e4ede",
+        "mode": "local"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 64,
+      "timestamp": "2026-10-20T04:49:34.398056+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 65,
+      "timestamp": "2026-10-20T04:49:34.398826+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 66,
+      "timestamp": "2026-10-20T04:49:34.403169+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_expiration_schema"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 67,
+      "timestamp": "2026-10-20T04:49:34.403484+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "call:task_expiration_schema",
+        "role": "builder"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 68,
+      "timestamp": "2026-10-20T04:49:34.403686+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 69,
+      "timestamp": "2026-10-20T04:49:34.405337+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_contract_tests"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 70,
+      "timestamp": "2026-10-20T04:49:34.405625+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "call:task_contract_tests",
+        "role": "verifier"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 71,
+      "timestamp": "2026-10-20T04:49:34.405831+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_expiration_schema"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 72,
+      "timestamp": "2026-10-20T04:49:34.422054+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_expiration_schema"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 73,
+      "timestamp": "2026-10-20T04:49:34.425378+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_contract_tests"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 74,
+      "timestamp": "2026-10-20T04:49:34.426369+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_contract_tests"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 75,
+      "timestamp": "2026-10-20T04:49:34.429530+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 76,
+      "timestamp": "2026-10-20T04:49:34.431304+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "task_expiration_schema"
+        ],
+        "node": "call:task_expiration"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 77,
+      "timestamp": "2026-10-20T04:49:34.431714+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "call:task_expiration",
+        "role": "builder"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 78,
+      "timestamp": "2026-10-20T04:49:34.431955+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "task_expiration_schema"
+        ],
+        "node": "call:task_expiration"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 79,
+      "timestamp": "2026-10-20T04:49:34.446048+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "task_expiration_schema"
+        ],
+        "node": "task_expiration"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 80,
+      "timestamp": "2026-10-20T04:49:34.449430+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "task_expiration_schema",
+          "task_expiration",
+          "task_contract_tests"
+        ],
+        "node": "assemble"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 81,
+      "timestamp": "2026-10-20T04:49:34.453101+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "candidate"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 82,
+      "timestamp": "2026-10-20T04:49:34.453419+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "validate_0"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 83,
+      "timestamp": "2026-10-20T04:49:34.456040+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 84,
+      "timestamp": "2026-10-20T04:49:34.457115+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "review_0"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 85,
+      "timestamp": "2026-10-20T04:49:34.457518+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "review_0",
+        "role": "reviewer"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 86,
+      "timestamp": "2026-10-20T04:49:34.457776+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "review_0"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 87,
+      "timestamp": "2026-10-20T04:49:34.466624+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "validate_0"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 88,
+      "timestamp": "2026-10-20T04:49:37.753280+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "validate_0",
+          "review_0"
+        ],
+        "node": "validation_join"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 89,
+      "timestamp": "2026-10-20T04:49:37.753932+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 90,
+      "timestamp": "2026-10-20T04:49:37.755043+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "validation_join"
+        ],
+        "node": "docs"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 91,
+      "timestamp": "2026-10-20T04:49:37.755452+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "docs",
+        "role": "documenter"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 92,
+      "timestamp": "2026-10-20T04:49:37.755684+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "validation_join"
+        ],
+        "node": "docs"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 93,
+      "timestamp": "2026-10-20T04:49:37.757388+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "release"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 94,
+      "timestamp": "2026-10-20T04:49:37.758251+00:00"
+    },
+    {
+      "kind": "approval_requested",
+      "payload": {
+        "keys": [
+          "pending"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 95,
+      "timestamp": "2026-10-20T04:49:37.758765+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "active_seconds"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 96,
+      "timestamp": "2026-10-20T04:49:37.759365+00:00"
+    },
+    {
+      "kind": "execution_finished",
+      "payload": {
+        "duration_seconds": 3.397068666992709
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 97,
+      "timestamp": "2026-10-20T04:49:37.759611+00:00"
+    },
+    {
+      "kind": "human_decision",
+      "payload": {
+        "action": "accept",
+        "actor": "scripted-local-demo-operator",
+        "decision": "approve",
+        "hash": "6cba1a8c57e6c6739dcfec645755bf53d817706fac1072968f557e2925f6fdba"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 98,
+      "timestamp": "2026-10-20T04:49:37.765699+00:00"
+    },
+    {
+      "kind": "rollback",
+      "payload": {
+        "actor": "scripted-local-demo-operator",
+        "from": "6cba1a8c57e6c6739dcfec645755bf53d817706fac1072968f557e2925f6fdba",
+        "target_run": "c4a516cb56ff",
+        "to": "ab1f3c08ab892420472a701283e0791816458e78c820052685e9eef0a7db155d"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 99,
+      "timestamp": "2026-10-20T04:49:37.783203+00:00"
+    },
+    {
+      "kind": "rollback_smoke",
+      "payload": {
+        "passed": true,
+        "report": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/rollback-smoke/report.json",
+        "target": "c4a516cb56ff"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "seq": 100,
+      "timestamp": "2026-10-20T04:49:41.007633+00:00"
+    },
+    {
+      "kind": "run_created",
+      "payload": {
+        "mode": "local",
+        "scenario": "ambiguous"
+      },
+      "revision": 1,
+      "run_id": "6ca802b467d3",
+      "seq": 101,
+      "timestamp": "2026-10-20T04:49:41.010584+00:00"
+    },
+    {
+      "kind": "preflight_passed",
+      "payload": {
+        "available": true,
+        "engine_version": "29.5.2",
+        "image": "agentic-shortener-runner:local",
+        "image_id": "sha256:ed471a596c159017cb40fa7316bfa71dba1d74f5c17f7256b4f1c328096e4ede",
+        "mode": "local"
+      },
+      "revision": 1,
+      "run_id": "6ca802b467d3",
+      "seq": 102,
+      "timestamp": "2026-10-20T04:49:41.048376+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "6ca802b467d3",
+      "seq": 103,
+      "timestamp": "2026-10-20T04:49:41.049067+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "6ca802b467d3",
+      "seq": 104,
+      "timestamp": "2026-10-20T04:49:41.049977+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [],
+        "node": "normalize"
+      },
+      "revision": 1,
+      "run_id": "6ca802b467d3",
+      "seq": 105,
+      "timestamp": "2026-10-20T04:49:41.050313+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "normalize",
+        "role": "normalize"
+      },
+      "revision": 1,
+      "run_id": "6ca802b467d3",
+      "seq": 106,
+      "timestamp": "2026-10-20T04:49:41.050535+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [],
+        "node": "normalize"
+      },
+      "revision": 1,
+      "run_id": "6ca802b467d3",
+      "seq": 107,
+      "timestamp": "2026-10-20T04:49:41.052329+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "questions"
+        ],
+        "status": "waiting_for_input"
+      },
+      "revision": 1,
+      "run_id": "6ca802b467d3",
+      "seq": 108,
+      "timestamp": "2026-10-20T04:49:41.052859+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "active_seconds"
+        ],
+        "status": "waiting_for_input"
+      },
+      "revision": 1,
+      "run_id": "6ca802b467d3",
+      "seq": 109,
+      "timestamp": "2026-10-20T04:49:41.053294+00:00"
+    },
+    {
+      "kind": "execution_finished",
+      "payload": {
+        "duration_seconds": 0.04193416680209339
+      },
+      "revision": 1,
+      "run_id": "6ca802b467d3",
+      "seq": 110,
+      "timestamp": "2026-10-20T04:49:41.053525+00:00"
+    },
+    {
+      "kind": "requirement_revised",
+      "payload": {
+        "answer": "Use optional custom aliases, exactly eight characters; return 409 on collisions.",
+        "previous_revision": 1
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 111,
+      "timestamp": "2026-10-20T04:49:41.054739+00:00"
+    },
+    {
+      "kind": "preflight_passed",
+      "payload": {
+        "available": true,
+        "engine_version": "29.5.2",
+        "image": "agentic-shortener-runner:local",
+        "image_id": "sha256:ed471a596c159017cb40fa7316bfa71dba1d74f5c17f7256b4f1c328096e4ede",
+        "mode": "local"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 112,
+      "timestamp": "2026-10-20T04:49:41.091285+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [],
+        "status": "running"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 113,
+      "timestamp": "2026-10-20T04:49:41.091996+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 114,
+      "timestamp": "2026-10-20T04:49:41.092927+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [],
+        "node": "normalize"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 115,
+      "timestamp": "2026-10-20T04:49:41.093365+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "normalize",
+        "role": "normalize"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 116,
+      "timestamp": "2026-10-20T04:49:41.093634+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [],
+        "node": "normalize"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 117,
+      "timestamp": "2026-10-20T04:49:41.095484+00:00"
+    },
+    {
+      "kind": "requirement_constraints_parsed",
+      "payload": {
+        "keys": [
+          "alias_max",
+          "alias_min",
+          "normalization_contract"
+        ],
+        "status": "running"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 118,
+      "timestamp": "2026-10-20T04:49:41.095966+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "base"
+        ],
+        "status": "running"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 119,
+      "timestamp": "2026-10-20T04:49:41.098445+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "normalize"
+        ],
+        "node": "inspect"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 120,
+      "timestamp": "2026-10-20T04:49:41.098791+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 121,
+      "timestamp": "2026-10-20T04:49:41.100080+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "inspect"
+        ],
+        "node": "plan"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 122,
+      "timestamp": "2026-10-20T04:49:41.100429+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "plan",
+        "role": "planner"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 123,
+      "timestamp": "2026-10-20T04:49:41.100645+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "inspect"
+        ],
+        "node": "plan"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 124,
+      "timestamp": "2026-10-20T04:49:41.106308+00:00"
+    },
+    {
+      "kind": "node_pending",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_aliases"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 125,
+      "timestamp": "2026-10-20T04:49:41.106719+00:00"
+    },
+    {
+      "kind": "node_pending",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_contract_tests"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 126,
+      "timestamp": "2026-10-20T04:49:41.107024+00:00"
+    },
+    {
+      "kind": "approval_requested",
+      "payload": {
+        "keys": [
+          "pending"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 127,
+      "timestamp": "2026-10-20T04:49:41.107555+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "active_seconds"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 128,
+      "timestamp": "2026-10-20T04:49:41.107938+00:00"
+    },
+    {
+      "kind": "execution_finished",
+      "payload": {
+        "duration_seconds": 0.05260004196316004
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 129,
+      "timestamp": "2026-10-20T04:49:41.108144+00:00"
+    },
+    {
+      "kind": "human_decision",
+      "payload": {
+        "action": "plan",
+        "actor": "scripted-local-demo-operator",
+        "decision": "approve",
+        "hash": "cef9cc45f104fdedc09c5acd46a323507b854250518bc494cfd13cc38f0671f0"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 130,
+      "timestamp": "2026-10-20T04:49:41.109682+00:00"
+    },
+    {
+      "kind": "preflight_passed",
+      "payload": {
+        "available": true,
+        "engine_version": "29.5.2",
+        "image": "agentic-shortener-runner:local",
+        "image_id": "sha256:ed471a596c159017cb40fa7316bfa71dba1d74f5c17f7256b4f1c328096e4ede",
+        "mode": "local"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 131,
+      "timestamp": "2026-10-20T04:49:41.149281+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [],
+        "status": "running"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 132,
+      "timestamp": "2026-10-20T04:49:41.149956+00:00"
+    },
+    {
+      "kind": "requirement_constraints_parsed",
+      "payload": {
+        "keys": [
+          "alias_max",
+          "alias_min",
+          "normalization_contract"
+        ],
+        "status": "running"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 133,
+      "timestamp": "2026-10-20T04:49:41.151211+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 134,
+      "timestamp": "2026-10-20T04:49:41.154677+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_aliases"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 135,
+      "timestamp": "2026-10-20T04:49:41.155048+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "call:task_aliases",
+        "role": "builder"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 136,
+      "timestamp": "2026-10-20T04:49:41.155259+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 137,
+      "timestamp": "2026-10-20T04:49:41.156896+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_contract_tests"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 138,
+      "timestamp": "2026-10-20T04:49:41.157212+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "call:task_contract_tests",
+        "role": "verifier"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 139,
+      "timestamp": "2026-10-20T04:49:41.157415+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_aliases"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 140,
+      "timestamp": "2026-10-20T04:49:41.174350+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_aliases"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 141,
+      "timestamp": "2026-10-20T04:49:41.177556+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_contract_tests"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 142,
+      "timestamp": "2026-10-20T04:49:41.178591+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_contract_tests"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 143,
+      "timestamp": "2026-10-20T04:49:41.181712+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "task_aliases",
+          "task_contract_tests"
+        ],
+        "node": "assemble"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 144,
+      "timestamp": "2026-10-20T04:49:41.185353+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "candidate"
+        ],
+        "status": "running"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 145,
+      "timestamp": "2026-10-20T04:49:41.185651+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "validate_0"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 146,
+      "timestamp": "2026-10-20T04:49:41.188195+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 147,
+      "timestamp": "2026-10-20T04:49:41.189092+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "review_0"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 148,
+      "timestamp": "2026-10-20T04:49:41.189530+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "review_0",
+        "role": "reviewer"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 149,
+      "timestamp": "2026-10-20T04:49:41.189808+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "review_0"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 150,
+      "timestamp": "2026-10-20T04:49:41.197953+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "validate_0"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 151,
+      "timestamp": "2026-10-20T04:49:44.413733+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "validate_0",
+          "review_0"
+        ],
+        "node": "validation_join"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 152,
+      "timestamp": "2026-10-20T04:49:44.414323+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 153,
+      "timestamp": "2026-10-20T04:49:44.415315+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "validation_join"
+        ],
+        "node": "docs"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 154,
+      "timestamp": "2026-10-20T04:49:44.415650+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "docs",
+        "role": "documenter"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 155,
+      "timestamp": "2026-10-20T04:49:44.415877+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "validation_join"
+        ],
+        "node": "docs"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 156,
+      "timestamp": "2026-10-20T04:49:44.417786+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "release"
+        ],
+        "status": "running"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 157,
+      "timestamp": "2026-10-20T04:49:44.418795+00:00"
+    },
+    {
+      "kind": "approval_requested",
+      "payload": {
+        "keys": [
+          "pending"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 158,
+      "timestamp": "2026-10-20T04:49:44.419228+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "active_seconds"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 159,
+      "timestamp": "2026-10-20T04:49:44.419665+00:00"
+    },
+    {
+      "kind": "execution_finished",
+      "payload": {
+        "duration_seconds": 3.3088364170398563
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "seq": 160,
+      "timestamp": "2026-10-20T04:49:44.419862+00:00"
+    },
+    {
+      "kind": "requirement_revised",
+      "payload": {
+        "answer": "Change the approved alias acceptance rule to 4-32 characters; retain duplicate 409 and random defaults.",
+        "previous_revision": 2
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 161,
+      "timestamp": "2026-10-20T04:49:44.435475+00:00"
+    },
+    {
+      "kind": "stale_approval_rejected",
+      "payload": {
+        "hash": "49af67169d3a7eaac3a41be820b1aba19856d168cff914cda1f6d2391a77e338"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 162,
+      "timestamp": "2026-10-20T04:49:44.435979+00:00"
+    },
+    {
+      "kind": "preflight_passed",
+      "payload": {
+        "available": true,
+        "engine_version": "29.5.2",
+        "image": "agentic-shortener-runner:local",
+        "image_id": "sha256:ed471a596c159017cb40fa7316bfa71dba1d74f5c17f7256b4f1c328096e4ede",
+        "mode": "local"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 163,
+      "timestamp": "2026-10-20T04:49:44.472722+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [],
+        "status": "running"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 164,
+      "timestamp": "2026-10-20T04:49:44.473503+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 165,
+      "timestamp": "2026-10-20T04:49:44.474530+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [],
+        "node": "normalize"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 166,
+      "timestamp": "2026-10-20T04:49:44.474943+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "normalize",
+        "role": "normalize"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 167,
+      "timestamp": "2026-10-20T04:49:44.475207+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [],
+        "node": "normalize"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 168,
+      "timestamp": "2026-10-20T04:49:44.477169+00:00"
+    },
+    {
+      "kind": "requirement_constraints_parsed",
+      "payload": {
+        "keys": [
+          "alias_max",
+          "alias_min",
+          "normalization_contract"
+        ],
+        "status": "running"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 169,
+      "timestamp": "2026-10-20T04:49:44.477598+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "base"
+        ],
+        "status": "running"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 170,
+      "timestamp": "2026-10-20T04:49:44.480159+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "normalize"
+        ],
+        "node": "inspect"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 171,
+      "timestamp": "2026-10-20T04:49:44.480520+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 172,
+      "timestamp": "2026-10-20T04:49:44.481732+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "inspect"
+        ],
+        "node": "plan"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 173,
+      "timestamp": "2026-10-20T04:49:44.482063+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "plan",
+        "role": "planner"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 174,
+      "timestamp": "2026-10-20T04:49:44.482266+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "inspect"
+        ],
+        "node": "plan"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 175,
+      "timestamp": "2026-10-20T04:49:44.487702+00:00"
+    },
+    {
+      "kind": "node_pending",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_aliases"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 176,
+      "timestamp": "2026-10-20T04:49:44.488077+00:00"
+    },
+    {
+      "kind": "node_pending",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_contract_tests"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 177,
+      "timestamp": "2026-10-20T04:49:44.488366+00:00"
+    },
+    {
+      "kind": "approval_requested",
+      "payload": {
+        "keys": [
+          "pending"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 178,
+      "timestamp": "2026-10-20T04:49:44.488874+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "active_seconds"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 179,
+      "timestamp": "2026-10-20T04:49:44.489255+00:00"
+    },
+    {
+      "kind": "execution_finished",
+      "payload": {
+        "duration_seconds": 0.05260395887307823
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 180,
+      "timestamp": "2026-10-20T04:49:44.489455+00:00"
+    },
+    {
+      "kind": "human_decision",
+      "payload": {
+        "action": "plan",
+        "actor": "scripted-local-demo-operator",
+        "decision": "approve",
+        "hash": "2c630d8107358d9ada678a3b6235f3761526b9396b9d24b362451471f09e03d3"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 181,
+      "timestamp": "2026-10-20T04:49:44.491083+00:00"
+    },
+    {
+      "kind": "preflight_passed",
+      "payload": {
+        "available": true,
+        "engine_version": "29.5.2",
+        "image": "agentic-shortener-runner:local",
+        "image_id": "sha256:ed471a596c159017cb40fa7316bfa71dba1d74f5c17f7256b4f1c328096e4ede",
+        "mode": "local"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 182,
+      "timestamp": "2026-10-20T04:49:44.526943+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [],
+        "status": "running"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 183,
+      "timestamp": "2026-10-20T04:49:44.527744+00:00"
+    },
+    {
+      "kind": "requirement_constraints_parsed",
+      "payload": {
+        "keys": [
+          "alias_max",
+          "alias_min",
+          "normalization_contract"
+        ],
+        "status": "running"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 184,
+      "timestamp": "2026-10-20T04:49:44.529114+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 185,
+      "timestamp": "2026-10-20T04:49:44.532561+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_aliases"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 186,
+      "timestamp": "2026-10-20T04:49:44.532878+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "call:task_aliases",
+        "role": "builder"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 187,
+      "timestamp": "2026-10-20T04:49:44.533471+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 188,
+      "timestamp": "2026-10-20T04:49:44.535151+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_contract_tests"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 189,
+      "timestamp": "2026-10-20T04:49:44.535441+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "call:task_contract_tests",
+        "role": "verifier"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 190,
+      "timestamp": "2026-10-20T04:49:44.535642+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_aliases"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 191,
+      "timestamp": "2026-10-20T04:49:44.552422+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_aliases"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 192,
+      "timestamp": "2026-10-20T04:49:44.555801+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_contract_tests"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 193,
+      "timestamp": "2026-10-20T04:49:44.556809+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_contract_tests"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 194,
+      "timestamp": "2026-10-20T04:49:44.559953+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "task_aliases",
+          "task_contract_tests"
+        ],
+        "node": "assemble"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 195,
+      "timestamp": "2026-10-20T04:49:44.563676+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "candidate"
+        ],
+        "status": "running"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 196,
+      "timestamp": "2026-10-20T04:49:44.564208+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "validate_0"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 197,
+      "timestamp": "2026-10-20T04:49:44.566615+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 198,
+      "timestamp": "2026-10-20T04:49:44.567517+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "review_0"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 199,
+      "timestamp": "2026-10-20T04:49:44.567921+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "review_0",
+        "role": "reviewer"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 200,
+      "timestamp": "2026-10-20T04:49:44.568217+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "review_0"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 201,
+      "timestamp": "2026-10-20T04:49:44.576772+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "validate_0"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 202,
+      "timestamp": "2026-10-20T04:49:47.819751+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "validate_0",
+          "review_0"
+        ],
+        "node": "validation_join"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 203,
+      "timestamp": "2026-10-20T04:49:47.820451+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 204,
+      "timestamp": "2026-10-20T04:49:47.821539+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "validation_join"
+        ],
+        "node": "docs"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 205,
+      "timestamp": "2026-10-20T04:49:47.821899+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "docs",
+        "role": "documenter"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 206,
+      "timestamp": "2026-10-20T04:49:47.822173+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "validation_join"
+        ],
+        "node": "docs"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 207,
+      "timestamp": "2026-10-20T04:49:47.823971+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "release"
+        ],
+        "status": "running"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 208,
+      "timestamp": "2026-10-20T04:49:47.824820+00:00"
+    },
+    {
+      "kind": "approval_requested",
+      "payload": {
+        "keys": [
+          "pending"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 209,
+      "timestamp": "2026-10-20T04:49:47.825288+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "active_seconds"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 210,
+      "timestamp": "2026-10-20T04:49:47.825717+00:00"
+    },
+    {
+      "kind": "execution_finished",
+      "payload": {
+        "duration_seconds": 3.333548415917903
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 211,
+      "timestamp": "2026-10-20T04:49:47.825924+00:00"
+    },
+    {
+      "kind": "human_decision",
+      "payload": {
+        "action": "accept",
+        "actor": "scripted-local-demo-operator",
+        "decision": "approve",
+        "hash": "62759ceac4c4448e340ed1d3d4637711458cd0d70731c0259692cfe103de7452"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "seq": 212,
+      "timestamp": "2026-10-20T04:49:47.831788+00:00"
+    },
+    {
+      "kind": "run_created",
+      "payload": {
+        "mode": "local",
+        "scenario": "brownfield"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 213,
+      "timestamp": "2026-10-20T04:49:47.848718+00:00"
+    },
+    {
+      "kind": "preflight_passed",
+      "payload": {
+        "available": true,
+        "engine_version": "29.5.2",
+        "image": "agentic-shortener-runner:local",
+        "image_id": "sha256:ed471a596c159017cb40fa7316bfa71dba1d74f5c17f7256b4f1c328096e4ede",
+        "mode": "local"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 214,
+      "timestamp": "2026-10-20T04:49:47.886598+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 215,
+      "timestamp": "2026-10-20T04:49:47.887363+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 216,
+      "timestamp": "2026-10-20T04:49:47.888475+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [],
+        "node": "normalize"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 217,
+      "timestamp": "2026-10-20T04:49:47.888939+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "normalize",
+        "role": "normalize"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 218,
+      "timestamp": "2026-10-20T04:49:47.889286+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [],
+        "node": "normalize"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 219,
+      "timestamp": "2026-10-20T04:49:47.890795+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "base"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 220,
+      "timestamp": "2026-10-20T04:49:47.893428+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "normalize"
+        ],
+        "node": "inspect"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 221,
+      "timestamp": "2026-10-20T04:49:47.893775+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 222,
+      "timestamp": "2026-10-20T04:49:47.894925+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "inspect"
+        ],
+        "node": "plan"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 223,
+      "timestamp": "2026-10-20T04:49:47.895235+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "plan",
+        "role": "planner"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 224,
+      "timestamp": "2026-10-20T04:49:47.895438+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "inspect"
+        ],
+        "node": "plan"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 225,
+      "timestamp": "2026-10-20T04:49:47.901850+00:00"
+    },
+    {
+      "kind": "node_pending",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_expiration_schema"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 226,
+      "timestamp": "2026-10-20T04:49:47.902261+00:00"
+    },
+    {
+      "kind": "node_pending",
+      "payload": {
+        "dependencies": [
+          "task_expiration_schema"
+        ],
+        "node": "task_expiration"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 227,
+      "timestamp": "2026-10-20T04:49:47.902600+00:00"
+    },
+    {
+      "kind": "node_pending",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_contract_tests"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 228,
+      "timestamp": "2026-10-20T04:49:47.902917+00:00"
+    },
+    {
+      "kind": "approval_requested",
+      "payload": {
+        "keys": [
+          "pending"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 229,
+      "timestamp": "2026-10-20T04:49:47.903414+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "active_seconds"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 230,
+      "timestamp": "2026-10-20T04:49:47.903802+00:00"
+    },
+    {
+      "kind": "execution_finished",
+      "payload": {
+        "duration_seconds": 0.054268499836325645
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 231,
+      "timestamp": "2026-10-20T04:49:47.904014+00:00"
+    },
+    {
+      "kind": "human_decision",
+      "payload": {
+        "action": "plan",
+        "actor": "scripted-local-demo-operator",
+        "decision": "approve",
+        "hash": "aadc8980b5050007117c28497d5a62228d040e84563522cc90124585995e07c1"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 232,
+      "timestamp": "2026-10-20T04:49:47.905398+00:00"
+    },
+    {
+      "kind": "preflight_passed",
+      "payload": {
+        "available": true,
+        "engine_version": "29.5.2",
+        "image": "agentic-shortener-runner:local",
+        "image_id": "sha256:ed471a596c159017cb40fa7316bfa71dba1d74f5c17f7256b4f1c328096e4ede",
+        "mode": "local"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 233,
+      "timestamp": "2026-10-20T04:49:47.942985+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 234,
+      "timestamp": "2026-10-20T04:49:47.943654+00:00"
+    },
+    {
+      "kind": "safe_stop",
+      "payload": {
+        "keys": [
+          "error",
+          "pending"
+        ],
+        "status": "failed"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 235,
+      "timestamp": "2026-10-20T04:49:47.949864+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "active_seconds"
+        ],
+        "status": "failed"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 236,
+      "timestamp": "2026-10-20T04:49:47.950430+00:00"
+    },
+    {
+      "kind": "execution_finished",
+      "payload": {
+        "duration_seconds": 0.043674167012795806
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 237,
+      "timestamp": "2026-10-20T04:49:47.950668+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "handoff"
+        ],
+        "status": "failed"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 238,
+      "timestamp": "2026-10-20T04:49:47.951866+00:00"
+    },
+    {
+      "kind": "handoff_created",
+      "payload": {
+        "artifact_id": "f158b06ecec1422e8132f1d5be2296fb",
+        "failure_code": "call_budget_exhausted",
+        "hash": "4a4bc92adc75b6a1bc2348cf2e6ebeea649d0e43a1a3141d0feb75346d5ce675",
+        "permitted_action": "create_replacement"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 239,
+      "timestamp": "2026-10-20T04:49:47.952093+00:00"
+    },
+    {
+      "kind": "human_decision",
+      "payload": {
+        "action": "recover",
+        "actor": "scripted-local-demo-operator",
+        "decision": "approve",
+        "hash": "4a4bc92adc75b6a1bc2348cf2e6ebeea649d0e43a1a3141d0feb75346d5ce675"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 240,
+      "timestamp": "2026-10-20T04:49:47.956656+00:00"
+    },
+    {
+      "kind": "recovery_created",
+      "payload": {
+        "actor": "scripted-local-demo-operator",
+        "child_run": "9e6bd9e60df1",
+        "handoff_hash": "4a4bc92adc75b6a1bc2348cf2e6ebeea649d0e43a1a3141d0feb75346d5ce675",
+        "handoff_id": "f158b06ecec1422e8132f1d5be2296fb",
+        "instructions": "Use the standard bounded budget; preserve the API and current accepted source.",
+        "parent_revision": 1,
+        "parent_run": "270d505de031"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "seq": 241,
+      "timestamp": "2026-10-20T04:49:47.956699+00:00"
+    },
+    {
+      "kind": "run_created",
+      "payload": {
+        "mode": "local",
+        "recovery": {
+          "actor": "scripted-local-demo-operator",
+          "handoff_hash": "4a4bc92adc75b6a1bc2348cf2e6ebeea649d0e43a1a3141d0feb75346d5ce675",
+          "handoff_id": "f158b06ecec1422e8132f1d5be2296fb",
+          "instructions": "Use the standard bounded budget; preserve the API and current accepted source.",
+          "parent_revision": 1,
+          "parent_run": "270d505de031"
+        },
+        "scenario": "brownfield"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 242,
+      "timestamp": "2026-10-20T04:49:47.956708+00:00"
+    },
+    {
+      "kind": "preflight_passed",
+      "payload": {
+        "available": true,
+        "engine_version": "29.5.2",
+        "image": "agentic-shortener-runner:local",
+        "image_id": "sha256:ed471a596c159017cb40fa7316bfa71dba1d74f5c17f7256b4f1c328096e4ede",
+        "mode": "local"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 243,
+      "timestamp": "2026-10-20T04:49:47.990648+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 244,
+      "timestamp": "2026-10-20T04:49:47.991381+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 245,
+      "timestamp": "2026-10-20T04:49:47.992307+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [],
+        "node": "normalize"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 246,
+      "timestamp": "2026-10-20T04:49:47.992619+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "normalize",
+        "role": "normalize"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 247,
+      "timestamp": "2026-10-20T04:49:47.992811+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [],
+        "node": "normalize"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 248,
+      "timestamp": "2026-10-20T04:49:47.994355+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "base"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 249,
+      "timestamp": "2026-10-20T04:49:47.996862+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "normalize"
+        ],
+        "node": "inspect"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 250,
+      "timestamp": "2026-10-20T04:49:47.997201+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 251,
+      "timestamp": "2026-10-20T04:49:47.998482+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "inspect"
+        ],
+        "node": "plan"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 252,
+      "timestamp": "2026-10-20T04:49:47.998831+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "plan",
+        "role": "planner"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 253,
+      "timestamp": "2026-10-20T04:49:47.999065+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "inspect"
+        ],
+        "node": "plan"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 254,
+      "timestamp": "2026-10-20T04:49:48.005283+00:00"
+    },
+    {
+      "kind": "node_pending",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_expiration_schema"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 255,
+      "timestamp": "2026-10-20T04:49:48.005669+00:00"
+    },
+    {
+      "kind": "node_pending",
+      "payload": {
+        "dependencies": [
+          "task_expiration_schema"
+        ],
+        "node": "task_expiration"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 256,
+      "timestamp": "2026-10-20T04:49:48.006004+00:00"
+    },
+    {
+      "kind": "node_pending",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_contract_tests"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 257,
+      "timestamp": "2026-10-20T04:49:48.006361+00:00"
+    },
+    {
+      "kind": "approval_requested",
+      "payload": {
+        "keys": [
+          "pending"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 258,
+      "timestamp": "2026-10-20T04:49:48.007001+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "active_seconds"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 259,
+      "timestamp": "2026-10-20T04:49:48.007551+00:00"
+    },
+    {
+      "kind": "execution_finished",
+      "payload": {
+        "duration_seconds": 0.04986070794984698
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 260,
+      "timestamp": "2026-10-20T04:49:48.007804+00:00"
+    },
+    {
+      "kind": "human_decision",
+      "payload": {
+        "action": "plan",
+        "actor": "scripted-local-demo-operator",
+        "decision": "approve",
+        "hash": "dad1ec0791ed62c618880589434ead3885944887a43ce938e1e8d2a0aa92c28d"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 261,
+      "timestamp": "2026-10-20T04:49:48.009392+00:00"
+    },
+    {
+      "kind": "preflight_passed",
+      "payload": {
+        "available": true,
+        "engine_version": "29.5.2",
+        "image": "agentic-shortener-runner:local",
+        "image_id": "sha256:ed471a596c159017cb40fa7316bfa71dba1d74f5c17f7256b4f1c328096e4ede",
+        "mode": "local"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 262,
+      "timestamp": "2026-10-20T04:49:48.047308+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 263,
+      "timestamp": "2026-10-20T04:49:48.048035+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 264,
+      "timestamp": "2026-10-20T04:49:48.052935+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_expiration_schema"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 265,
+      "timestamp": "2026-10-20T04:49:48.053283+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "call:task_expiration_schema",
+        "role": "builder"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 266,
+      "timestamp": "2026-10-20T04:49:48.053493+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 267,
+      "timestamp": "2026-10-20T04:49:48.055311+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_contract_tests"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 268,
+      "timestamp": "2026-10-20T04:49:48.055613+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "call:task_contract_tests",
+        "role": "verifier"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 269,
+      "timestamp": "2026-10-20T04:49:48.055825+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_expiration_schema"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 270,
+      "timestamp": "2026-10-20T04:49:48.075442+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_expiration_schema"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 271,
+      "timestamp": "2026-10-20T04:49:48.079016+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "call:task_contract_tests"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 272,
+      "timestamp": "2026-10-20T04:49:48.080004+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "plan"
+        ],
+        "node": "task_contract_tests"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 273,
+      "timestamp": "2026-10-20T04:49:48.083633+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 274,
+      "timestamp": "2026-10-20T04:49:48.085497+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "task_expiration_schema"
+        ],
+        "node": "call:task_expiration"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 275,
+      "timestamp": "2026-10-20T04:49:48.085816+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "call:task_expiration",
+        "role": "builder"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 276,
+      "timestamp": "2026-10-20T04:49:48.086122+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "task_expiration_schema"
+        ],
+        "node": "call:task_expiration"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 277,
+      "timestamp": "2026-10-20T04:49:48.103314+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "task_expiration_schema"
+        ],
+        "node": "task_expiration"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 278,
+      "timestamp": "2026-10-20T04:49:48.107015+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "task_expiration_schema",
+          "task_expiration",
+          "task_contract_tests"
+        ],
+        "node": "assemble"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 279,
+      "timestamp": "2026-10-20T04:49:48.111281+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "candidate"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 280,
+      "timestamp": "2026-10-20T04:49:48.111699+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "validate_0"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 281,
+      "timestamp": "2026-10-20T04:49:48.114644+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 282,
+      "timestamp": "2026-10-20T04:49:48.115562+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "review_0"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 283,
+      "timestamp": "2026-10-20T04:49:48.116057+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "review_0",
+        "role": "reviewer"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 284,
+      "timestamp": "2026-10-20T04:49:48.116325+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "review_0"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 285,
+      "timestamp": "2026-10-20T04:49:48.125442+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "assemble"
+        ],
+        "node": "validate_0"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 286,
+      "timestamp": "2026-10-20T04:49:51.400373+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "validate_0",
+          "review_0"
+        ],
+        "node": "validation_join"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 287,
+      "timestamp": "2026-10-20T04:49:51.401011+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "calls"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 288,
+      "timestamp": "2026-10-20T04:49:51.402237+00:00"
+    },
+    {
+      "kind": "node_running",
+      "payload": {
+        "dependencies": [
+          "validation_join"
+        ],
+        "node": "docs"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 289,
+      "timestamp": "2026-10-20T04:49:51.402548+00:00"
+    },
+    {
+      "kind": "call_started",
+      "payload": {
+        "mode": "local",
+        "node": "docs",
+        "role": "documenter"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 290,
+      "timestamp": "2026-10-20T04:49:51.402746+00:00"
+    },
+    {
+      "kind": "node_passed",
+      "payload": {
+        "dependencies": [
+          "validation_join"
+        ],
+        "node": "docs"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 291,
+      "timestamp": "2026-10-20T04:49:51.404397+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "release"
+        ],
+        "status": "running"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 292,
+      "timestamp": "2026-10-20T04:49:51.405146+00:00"
+    },
+    {
+      "kind": "approval_requested",
+      "payload": {
+        "keys": [
+          "pending"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 293,
+      "timestamp": "2026-10-20T04:49:51.405714+00:00"
+    },
+    {
+      "kind": "state_updated",
+      "payload": {
+        "keys": [
+          "active_seconds"
+        ],
+        "status": "waiting_for_approval"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 294,
+      "timestamp": "2026-10-20T04:49:51.406181+00:00"
+    },
+    {
+      "kind": "execution_finished",
+      "payload": {
+        "duration_seconds": 3.3955807921011
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 295,
+      "timestamp": "2026-10-20T04:49:51.406393+00:00"
+    },
+    {
+      "kind": "human_decision",
+      "payload": {
+        "action": "accept",
+        "actor": "scripted-local-demo-operator",
+        "decision": "approve",
+        "hash": "b757fa3937afff5fa12a0e7c4f0b0516a72e13e3ef03f835c5ebcad3694a01d6"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "seq": 296,
+      "timestamp": "2026-10-20T04:49:51.413806+00:00"
+    }
+  ],
+  "nodes": [
+    {
+      "attempts": 1,
+      "dependencies": [],
+      "id": "normalize",
+      "result": {
+        "hash": "e7fcc2f55ee904ca4faf3e3535867567857350948db9e1a8cfcc5af8760881bb",
+        "id": "8a23c82880b449378b2806001ea54763",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/8a23c82880b449378b2806001ea54763.json"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "normalize"
+      ],
+      "id": "inspect",
+      "result": {
+        "baseline_hash": "e3c23c3b80a66bc227aec175c1ac3cf3f1e82dc50ad3f0e629a8b7623da076e4",
+        "files": [
+          "service/shortener/__init__.py",
+          "service/shortener/app.py"
+        ]
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "inspect"
+      ],
+      "id": "plan",
+      "result": {
+        "hash": "3e40a3e20f50e58ccf905cf2e07238a45552c51b66004d5320be872359f4c46e",
+        "id": "8869c959010d46aabd207e6bb0303d8d",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/8869c959010d46aabd207e6bb0303d8d.json"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "task_core",
+      "result": {
+        "candidate": {
+          "manifest": {
+            "files": {
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "aaefe9acf6fdb843e25288d4bb61ac5ea7771dd6040a5b958fd6dfe2014295b3"
+            },
+            "hash": "b591e93fdb28bea6dde942314d186fcd23c07d76707fa4e78ba17d2b3571c21d"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/candidates/d790e7bc36da432ebe15b7088b8dc0d8"
+        },
+        "changes": {
+          "hash": "a08fe65b069d91a5b802dd6555dfdf52d364a6bd3a737ac0bb9b27ec32ef4d98",
+          "id": "d39d2b3e271945e4ac744537031fc2ba",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/d39d2b3e271945e4ac744537031fc2ba.json"
+        }
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "task_contract_tests",
+      "result": {
+        "candidate": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "d29f33ee35a644101750398c4a4be746315874bb9506a47ff85d07203ca2a487",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "b2c95bc2f98e2b23bb5219c4078d98f3777352f95c7c471fa504cc617a864693"
+            },
+            "hash": "f5ca16b1fe306160f3528b185fe4c7911ebcbb2f0d101dc7e5220dd884a7d8bd"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/candidates/81dca6ed029d42808fc1f9b8ee0acb60"
+        },
+        "changes": {
+          "hash": "9c4e9034064671979a64b2d7b7b248f3cbd65af76f858b24242f3037c7b4a593",
+          "id": "de00d3fee0c441309e8dbdc489b550d1",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/de00d3fee0c441309e8dbdc489b550d1.json"
+        }
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "call:task_core",
+      "result": {
+        "hash": "a08fe65b069d91a5b802dd6555dfdf52d364a6bd3a737ac0bb9b27ec32ef4d98",
+        "id": "d39d2b3e271945e4ac744537031fc2ba",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/d39d2b3e271945e4ac744537031fc2ba.json"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "call:task_contract_tests",
+      "result": {
+        "hash": "9c4e9034064671979a64b2d7b7b248f3cbd65af76f858b24242f3037c7b4a593",
+        "id": "de00d3fee0c441309e8dbdc489b550d1",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/de00d3fee0c441309e8dbdc489b550d1.json"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "task_core",
+        "task_contract_tests"
+      ],
+      "id": "assemble",
+      "result": {
+        "manifest": {
+          "files": {
+            "generated_tests/test_rule_contract.py": "d29f33ee35a644101750398c4a4be746315874bb9506a47ff85d07203ca2a487",
+            "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+            "service/shortener/app.py": "aaefe9acf6fdb843e25288d4bb61ac5ea7771dd6040a5b958fd6dfe2014295b3"
+          },
+          "hash": "898bb86247d5b92fa97e5496e8238865f44dc2aa13b8c39e341621893f7781e7"
+        },
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/candidates/da8ec9cb0b6246f2acec7cab9772d586"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "assemble"
+      ],
+      "id": "validate_0",
+      "result": {
+        "hash": "6eacf04780a9eec2823e6acde5c44e108748599afde1365f3f542beadfbca826",
+        "id": "0f5f9f6e59d7462ea0008c9b958437a8",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/0f5f9f6e59d7462ea0008c9b958437a8.json"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "assemble"
+      ],
+      "id": "review_0",
+      "result": {
+        "hash": "352cc36ccc57ca9868a9dac97ccb0d1c4dd7b2d268c7e330784e261efcec3e25",
+        "id": "2b99506b97f546b8b533109722326745",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/2b99506b97f546b8b533109722326745.json"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "validate_0",
+        "review_0"
+      ],
+      "id": "validation_join",
+      "result": null,
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "validation_join"
+      ],
+      "id": "docs",
+      "result": {
+        "hash": "f08513aea398d9f9e11d809e79ffe5bae952e7fef51ff57c2d93615a3c086af7",
+        "id": "7e527d697063421cb425bba3fc98a46f",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/7e527d697063421cb425bba3fc98a46f.json"
+      },
+      "revision": 1,
+      "run_id": "c4a516cb56ff",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [],
+      "id": "normalize",
+      "result": {
+        "hash": "1b2ed105679c9c300b8e387dfdd2a8082df55a00616dc4860b0153512e00724e",
+        "id": "d41c0c4516714f0cba7e5c20f73f99e0",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/d41c0c4516714f0cba7e5c20f73f99e0.json"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "normalize"
+      ],
+      "id": "inspect",
+      "result": {
+        "baseline_hash": "898bb86247d5b92fa97e5496e8238865f44dc2aa13b8c39e341621893f7781e7",
+        "files": [
+          "generated_tests/test_rule_contract.py",
+          "service/shortener/__init__.py",
+          "service/shortener/app.py"
+        ]
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "inspect"
+      ],
+      "id": "plan",
+      "result": {
+        "hash": "f95c66598e54424f75d5b6c56bc4e03015e1164e76c8fd2ba014f8158663e551",
+        "id": "6f2659c31406452692aa8e82c61c0671",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/6f2659c31406452692aa8e82c61c0671.json"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "task_expiration_schema",
+      "result": {
+        "candidate": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "d29f33ee35a644101750398c4a4be746315874bb9506a47ff85d07203ca2a487",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "d5072d890d9b83ebd9bdb6cbb35d21db7e8d27c62db86071fac14a39ffa9f401"
+            },
+            "hash": "0d7a85fbe3cbf43312f5abe0b30b4cb2f38922a7de50d41d0d662f20393f7b31"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/candidates/cfaa3e304603472e95eb191ffd0af5df"
+        },
+        "changes": {
+          "hash": "323a7f91e794b423ac7399149ff88b66e74bb333669ba57c7cd8bd2d0639ae35",
+          "id": "8954a6ed12454997ad89011e99386c54",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/8954a6ed12454997ad89011e99386c54.json"
+        }
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "task_expiration_schema"
+      ],
+      "id": "task_expiration",
+      "result": {
+        "candidate": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "d29f33ee35a644101750398c4a4be746315874bb9506a47ff85d07203ca2a487",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "c59913a7ea099ae390f212b2d9bf7f375977e11e29e68a596308c89c8bad672a"
+            },
+            "hash": "7a31dfa5bad2be60b083158fa505df39bd199db74863a0a489669bc6ff093103"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/candidates/f597c33110bf4ea4a6d299b4969fe729"
+        },
+        "changes": {
+          "hash": "c39ce184ed705928271297443a637150929724eaf260a74d532cf4fb59301efc",
+          "id": "18fc083c2a4540fd80164b745857e087",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/18fc083c2a4540fd80164b745857e087.json"
+        }
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "task_contract_tests",
+      "result": {
+        "candidate": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "e7a1bb4718c5ed82c44ab032f8bc4c7c075942099a45761792b14ef0551947a2",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "aaefe9acf6fdb843e25288d4bb61ac5ea7771dd6040a5b958fd6dfe2014295b3"
+            },
+            "hash": "4ef7581c4958e1e3ad674de57dd176a14f87bc4738df63cca619d4230699ecee"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/candidates/3bfa5f2070e64a149362e084d56ca32c"
+        },
+        "changes": {
+          "hash": "5a46053fed2f9006eaf25d520191522eb6c98839b44ebaf1d851717dc251ff62",
+          "id": "c4d04bf092894fefb2c403f1a5c1a5ce",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/c4d04bf092894fefb2c403f1a5c1a5ce.json"
+        }
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "call:task_expiration_schema",
+      "result": {
+        "hash": "323a7f91e794b423ac7399149ff88b66e74bb333669ba57c7cd8bd2d0639ae35",
+        "id": "8954a6ed12454997ad89011e99386c54",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/8954a6ed12454997ad89011e99386c54.json"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "call:task_contract_tests",
+      "result": {
+        "hash": "5a46053fed2f9006eaf25d520191522eb6c98839b44ebaf1d851717dc251ff62",
+        "id": "c4d04bf092894fefb2c403f1a5c1a5ce",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/c4d04bf092894fefb2c403f1a5c1a5ce.json"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "task_expiration_schema"
+      ],
+      "id": "call:task_expiration",
+      "result": {
+        "hash": "c39ce184ed705928271297443a637150929724eaf260a74d532cf4fb59301efc",
+        "id": "18fc083c2a4540fd80164b745857e087",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/18fc083c2a4540fd80164b745857e087.json"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "task_expiration_schema",
+        "task_expiration",
+        "task_contract_tests"
+      ],
+      "id": "assemble",
+      "result": {
+        "manifest": {
+          "files": {
+            "generated_tests/test_rule_contract.py": "e7a1bb4718c5ed82c44ab032f8bc4c7c075942099a45761792b14ef0551947a2",
+            "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+            "service/shortener/app.py": "c59913a7ea099ae390f212b2d9bf7f375977e11e29e68a596308c89c8bad672a"
+          },
+          "hash": "5afdfd2d81d154013546ea133f2177d6e36820c9a6d90eaa540db8f1c873ac3a"
+        },
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/candidates/1a413c9d85fe469089efaffa35894332"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "assemble"
+      ],
+      "id": "validate_0",
+      "result": {
+        "hash": "b6d60eb9ecc846fe393bbaa7c51ab13eda27cc5715555105d6c5cc634d4663a2",
+        "id": "ebbde2c43745406f8321439e64434995",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/ebbde2c43745406f8321439e64434995.json"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "assemble"
+      ],
+      "id": "review_0",
+      "result": {
+        "hash": "63b1a4d489783a03bae6d739adb0717bcf667cbc362056b7038a6d33ad8ffac2",
+        "id": "5c2ac85938ba48239e5a1af6d47f4275",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/5c2ac85938ba48239e5a1af6d47f4275.json"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "validate_0",
+        "review_0"
+      ],
+      "id": "validation_join",
+      "result": null,
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "validation_join"
+      ],
+      "id": "docs",
+      "result": {
+        "hash": "700256caa2e36f46867ff95779b20d6af3208eb18a6a138817f9907315df253e",
+        "id": "1c25ac558f914622bb32605a96d24fe6",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/1c25ac558f914622bb32605a96d24fe6.json"
+      },
+      "revision": 1,
+      "run_id": "20f124ee360a",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [],
+      "id": "normalize",
+      "result": {
+        "hash": "583e797ab5a193b15524d7924ba38e8c9026044bb4852f1bdaaddcc6094767e7",
+        "id": "13df0ed43f454381974d6713989f09d4",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/13df0ed43f454381974d6713989f09d4.json"
+      },
+      "revision": 1,
+      "run_id": "6ca802b467d3",
+      "status": "stale"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [],
+      "id": "normalize",
+      "result": {
+        "hash": "06a57667318e2e06c96e7111767a9145a91cf60df4660cd0ca94a4f3f5fca1a2",
+        "id": "b4d55366f5de4303b1a02c5c79c425d0",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/b4d55366f5de4303b1a02c5c79c425d0.json"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "status": "stale"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "normalize"
+      ],
+      "id": "inspect",
+      "result": {
+        "baseline_hash": "898bb86247d5b92fa97e5496e8238865f44dc2aa13b8c39e341621893f7781e7",
+        "files": [
+          "generated_tests/test_rule_contract.py",
+          "service/shortener/__init__.py",
+          "service/shortener/app.py"
+        ]
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "status": "stale"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "inspect"
+      ],
+      "id": "plan",
+      "result": {
+        "hash": "cef9cc45f104fdedc09c5acd46a323507b854250518bc494cfd13cc38f0671f0",
+        "id": "24e40a0652b24b50981ca287687854b6",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/24e40a0652b24b50981ca287687854b6.json"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "status": "stale"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "task_aliases",
+      "result": {
+        "candidate": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "d29f33ee35a644101750398c4a4be746315874bb9506a47ff85d07203ca2a487",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "42f709141d84d271e5ef061c0d42e6ec312a10b17fe59fb50678e16bca9779da"
+            },
+            "hash": "329e6fbf1dd77bd5f30d9df9b22f8961dea5ce35439b4a47ef69c43d939cd867"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/candidates/506b7a54c3fd45289c260666c6882499"
+        },
+        "changes": {
+          "hash": "a00a63919592ab31ec7fba09eb4d6db202f1e8bdf818d9e0c2aaa14421e76ecf",
+          "id": "7401526fc81d43d5b4df8828945fe027",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/7401526fc81d43d5b4df8828945fe027.json"
+        }
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "status": "stale"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "task_contract_tests",
+      "result": {
+        "candidate": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "18ed2ed9a5d669d628635590e931d120b81f159f83e12ee95adcd56cb71f0307",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "aaefe9acf6fdb843e25288d4bb61ac5ea7771dd6040a5b958fd6dfe2014295b3"
+            },
+            "hash": "94eddff0aafd9a290376a6ee7d672067bf8fd648b6300ff8936aa36d9e714a9b"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/candidates/93b565cffbde4cac8c0ba8f43380aa1f"
+        },
+        "changes": {
+          "hash": "076f0567d5037d33c136e3e4dc2f3061d669d7fd415c39bc15261de673b7a33e",
+          "id": "97fef8c95d47416294387f1abd1b4dd0",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/97fef8c95d47416294387f1abd1b4dd0.json"
+        }
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "status": "stale"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "call:task_aliases",
+      "result": {
+        "hash": "a00a63919592ab31ec7fba09eb4d6db202f1e8bdf818d9e0c2aaa14421e76ecf",
+        "id": "7401526fc81d43d5b4df8828945fe027",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/7401526fc81d43d5b4df8828945fe027.json"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "status": "stale"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "call:task_contract_tests",
+      "result": {
+        "hash": "076f0567d5037d33c136e3e4dc2f3061d669d7fd415c39bc15261de673b7a33e",
+        "id": "97fef8c95d47416294387f1abd1b4dd0",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/97fef8c95d47416294387f1abd1b4dd0.json"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "status": "stale"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "task_aliases",
+        "task_contract_tests"
+      ],
+      "id": "assemble",
+      "result": {
+        "manifest": {
+          "files": {
+            "generated_tests/test_rule_contract.py": "18ed2ed9a5d669d628635590e931d120b81f159f83e12ee95adcd56cb71f0307",
+            "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+            "service/shortener/app.py": "42f709141d84d271e5ef061c0d42e6ec312a10b17fe59fb50678e16bca9779da"
+          },
+          "hash": "ffc1f41891c828a9c8e25ac5e81fba3f66aeb069f855e8b29a81a0cc5ada854b"
+        },
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/candidates/4d9cf921f74f4b6c96e98d5d0f0ea1ea"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "status": "stale"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "assemble"
+      ],
+      "id": "validate_0",
+      "result": {
+        "hash": "8b7821ec7239bfeed491eed7c923bb2df0039345fef08e3e5c9afaf6707811a3",
+        "id": "2b7ab00fe2c84d738a1ad49dfe6be362",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/2b7ab00fe2c84d738a1ad49dfe6be362.json"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "status": "stale"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "assemble"
+      ],
+      "id": "review_0",
+      "result": {
+        "hash": "5beacfb9a323ed835aee610b4852858d348bce456c3d4738a87582c287f18b18",
+        "id": "9c49e1213ef74b659da4314eefd26aa5",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/9c49e1213ef74b659da4314eefd26aa5.json"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "status": "stale"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "validate_0",
+        "review_0"
+      ],
+      "id": "validation_join",
+      "result": null,
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "status": "stale"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "validation_join"
+      ],
+      "id": "docs",
+      "result": {
+        "hash": "9b7685af7ef1bd6a86bbacaa7f818f16faded26a944481f1dfe2ae0690381e65",
+        "id": "588aad50d63949fb8904aa932ea589ab",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/588aad50d63949fb8904aa932ea589ab.json"
+      },
+      "revision": 2,
+      "run_id": "6ca802b467d3",
+      "status": "stale"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [],
+      "id": "normalize",
+      "result": {
+        "hash": "0ef792ea145a53a89071a77991d29a0827ab27e9f5dcc7d1d2883518746551e5",
+        "id": "f52769769d8b42c6a00001fb022e97d3",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/f52769769d8b42c6a00001fb022e97d3.json"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "normalize"
+      ],
+      "id": "inspect",
+      "result": {
+        "baseline_hash": "898bb86247d5b92fa97e5496e8238865f44dc2aa13b8c39e341621893f7781e7",
+        "files": [
+          "generated_tests/test_rule_contract.py",
+          "service/shortener/__init__.py",
+          "service/shortener/app.py"
+        ]
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "inspect"
+      ],
+      "id": "plan",
+      "result": {
+        "hash": "2c630d8107358d9ada678a3b6235f3761526b9396b9d24b362451471f09e03d3",
+        "id": "a98684696da34017b91c2635267cc00b",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/a98684696da34017b91c2635267cc00b.json"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "task_aliases",
+      "result": {
+        "candidate": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "d29f33ee35a644101750398c4a4be746315874bb9506a47ff85d07203ca2a487",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "7a9ee4bf6b5814eb2ec4f8a64216511238b717706ef0d75049707b471ec216e2"
+            },
+            "hash": "06e60eeba3a8aa3b1001811f3c4afdb0776b5f9fe8c37232df0f29db74a4fc58"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/candidates/1c0f5b2aaea7458485e6cf67fb503bd0"
+        },
+        "changes": {
+          "hash": "e2cf238dadee9e568d79dc66dc95e2007513bd6fc778f27a5c9b46894638eaea",
+          "id": "0f6ad16061644ee5a7ce2068612085a0",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/0f6ad16061644ee5a7ce2068612085a0.json"
+        }
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "task_contract_tests",
+      "result": {
+        "candidate": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "22916f019252fda44f83b3c23ed9a9f09123e873059d87746cee6760bdd5d1ea",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "aaefe9acf6fdb843e25288d4bb61ac5ea7771dd6040a5b958fd6dfe2014295b3"
+            },
+            "hash": "0d623a234cb5f2264fae197c1938a23363627f4112361c803ce03b3542556a02"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/candidates/491e630904754f868dc4e5b84218e05b"
+        },
+        "changes": {
+          "hash": "94acdfb1abb2677c53473251a03c3e2324e859f94291be7d82702cded956d1e8",
+          "id": "978faf7867c64ce3baf607a911983fa9",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/978faf7867c64ce3baf607a911983fa9.json"
+        }
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "call:task_aliases",
+      "result": {
+        "hash": "e2cf238dadee9e568d79dc66dc95e2007513bd6fc778f27a5c9b46894638eaea",
+        "id": "0f6ad16061644ee5a7ce2068612085a0",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/0f6ad16061644ee5a7ce2068612085a0.json"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "call:task_contract_tests",
+      "result": {
+        "hash": "94acdfb1abb2677c53473251a03c3e2324e859f94291be7d82702cded956d1e8",
+        "id": "978faf7867c64ce3baf607a911983fa9",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/978faf7867c64ce3baf607a911983fa9.json"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "task_aliases",
+        "task_contract_tests"
+      ],
+      "id": "assemble",
+      "result": {
+        "manifest": {
+          "files": {
+            "generated_tests/test_rule_contract.py": "22916f019252fda44f83b3c23ed9a9f09123e873059d87746cee6760bdd5d1ea",
+            "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+            "service/shortener/app.py": "7a9ee4bf6b5814eb2ec4f8a64216511238b717706ef0d75049707b471ec216e2"
+          },
+          "hash": "e51fc080641616a1b62142b5711295babca03e73db002d99d67d5f8b84fdd4a9"
+        },
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/candidates/4a6bf6ec99014090b6a3b2650bdf3f00"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "assemble"
+      ],
+      "id": "validate_0",
+      "result": {
+        "hash": "c19d45f5a75bdbdf5d524d0570dfddb9ed93da3424be73a8b15e5931189fec4b",
+        "id": "bd2d5359e70c4782a0be314d3ee25c07",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/bd2d5359e70c4782a0be314d3ee25c07.json"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "assemble"
+      ],
+      "id": "review_0",
+      "result": {
+        "hash": "48005b6c85563d911e79de5408445d3617a45d678b0c686a87f87b07e2af5a0d",
+        "id": "ff57ed5bd3fb468a8724aa62bd01c073",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/ff57ed5bd3fb468a8724aa62bd01c073.json"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "validate_0",
+        "review_0"
+      ],
+      "id": "validation_join",
+      "result": null,
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "validation_join"
+      ],
+      "id": "docs",
+      "result": {
+        "hash": "1889f573c85708c3271d9f6136f08c7c4504a0302c5a9fa42522fb02c932d4c3",
+        "id": "8b4cfa7687cf44e08e9ccc65ce1491da",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/8b4cfa7687cf44e08e9ccc65ce1491da.json"
+      },
+      "revision": 3,
+      "run_id": "6ca802b467d3",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [],
+      "id": "normalize",
+      "result": {
+        "hash": "77e0aa486bcc165ecebff14b7d082cfe305f72efe82c624a69cd89cdd3d4e93c",
+        "id": "189090a21c1c4f32966518a070d8ad53",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/270d505de031/artifacts/189090a21c1c4f32966518a070d8ad53.json"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "normalize"
+      ],
+      "id": "inspect",
+      "result": {
+        "baseline_hash": "e51fc080641616a1b62142b5711295babca03e73db002d99d67d5f8b84fdd4a9",
+        "files": [
+          "generated_tests/test_rule_contract.py",
+          "service/shortener/__init__.py",
+          "service/shortener/app.py"
+        ]
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "inspect"
+      ],
+      "id": "plan",
+      "result": {
+        "hash": "aadc8980b5050007117c28497d5a62228d040e84563522cc90124585995e07c1",
+        "id": "2c65e18ed66d44e495baadf954c8bc91",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/270d505de031/artifacts/2c65e18ed66d44e495baadf954c8bc91.json"
+      },
+      "revision": 1,
+      "run_id": "270d505de031",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "task_expiration_schema",
+      "result": null,
+      "revision": 1,
+      "run_id": "270d505de031",
+      "status": "pending"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "task_expiration_schema"
+      ],
+      "id": "task_expiration",
+      "result": null,
+      "revision": 1,
+      "run_id": "270d505de031",
+      "status": "pending"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "task_contract_tests",
+      "result": null,
+      "revision": 1,
+      "run_id": "270d505de031",
+      "status": "pending"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [],
+      "id": "normalize",
+      "result": {
+        "hash": "9d5d520e9fe06ac0d3663467fe78c172e46422875c7513b51ea832ebb4422b04",
+        "id": "4467ea3aa8314a2dae6d7f96e1bffcac",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/4467ea3aa8314a2dae6d7f96e1bffcac.json"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "normalize"
+      ],
+      "id": "inspect",
+      "result": {
+        "baseline_hash": "e51fc080641616a1b62142b5711295babca03e73db002d99d67d5f8b84fdd4a9",
+        "files": [
+          "generated_tests/test_rule_contract.py",
+          "service/shortener/__init__.py",
+          "service/shortener/app.py"
+        ]
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "inspect"
+      ],
+      "id": "plan",
+      "result": {
+        "hash": "dad1ec0791ed62c618880589434ead3885944887a43ce938e1e8d2a0aa92c28d",
+        "id": "95fe1933fd4c438cbcc47bf05f56a41b",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/95fe1933fd4c438cbcc47bf05f56a41b.json"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "task_expiration_schema",
+      "result": {
+        "candidate": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "22916f019252fda44f83b3c23ed9a9f09123e873059d87746cee6760bdd5d1ea",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "840cd9b4209e6b9f9e943e0b86473f5b70c278a9a87a36a37f556a65c1e65905"
+            },
+            "hash": "1b4beac19a9f453ae8647262a3746684cd1cf0e7f41ef8af727f0e7a8255e13b"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/candidates/043863c942124f9bb1a6bdecee462aa2"
+        },
+        "changes": {
+          "hash": "948ecf3268dd49ac624ea84ba6f4d3c4ef913bf4a05470f869a86cfd544ad30d",
+          "id": "efc279a2954c49a49bf285b8beed8414",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/efc279a2954c49a49bf285b8beed8414.json"
+        }
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "task_expiration_schema"
+      ],
+      "id": "task_expiration",
+      "result": {
+        "candidate": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "22916f019252fda44f83b3c23ed9a9f09123e873059d87746cee6760bdd5d1ea",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "2f191ee6b9a53dc1bd6443c0ff0429c928f6647efc8b0049a7702dbbff145c20"
+            },
+            "hash": "c0cbafe925718a9caf904ff94df8fb377094b8aff25ae82d9b61e62b403c48af"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/candidates/08840b2d688b48a69a1547b7e4d4265c"
+        },
+        "changes": {
+          "hash": "1a42eb1b302e944e1f09561a6d01dd38a5886a65b912b6c609881078552e7d2f",
+          "id": "ed8f78fd8e6d4c23a5eec43067c0b94b",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/ed8f78fd8e6d4c23a5eec43067c0b94b.json"
+        }
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "task_contract_tests",
+      "result": {
+        "candidate": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "8ee8d8651c76bd0239d6f3cee2364addfe666adcf56a382cdb7c9e4719257f74",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "7a9ee4bf6b5814eb2ec4f8a64216511238b717706ef0d75049707b471ec216e2"
+            },
+            "hash": "92603165ed37213b303790a558ac85275c0921ba040724e403016a766875f77e"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/candidates/96b288c2f91141459c9e91fcb321ee1e"
+        },
+        "changes": {
+          "hash": "6a6b4770d8e44b54a746fe6428ff810cb26ae47e164dafdcf0c225dab8eee86e",
+          "id": "6d2dd05e375242a69b78563c8ed2a40c",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/6d2dd05e375242a69b78563c8ed2a40c.json"
+        }
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "call:task_expiration_schema",
+      "result": {
+        "hash": "948ecf3268dd49ac624ea84ba6f4d3c4ef913bf4a05470f869a86cfd544ad30d",
+        "id": "efc279a2954c49a49bf285b8beed8414",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/efc279a2954c49a49bf285b8beed8414.json"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "plan"
+      ],
+      "id": "call:task_contract_tests",
+      "result": {
+        "hash": "6a6b4770d8e44b54a746fe6428ff810cb26ae47e164dafdcf0c225dab8eee86e",
+        "id": "6d2dd05e375242a69b78563c8ed2a40c",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/6d2dd05e375242a69b78563c8ed2a40c.json"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "task_expiration_schema"
+      ],
+      "id": "call:task_expiration",
+      "result": {
+        "hash": "1a42eb1b302e944e1f09561a6d01dd38a5886a65b912b6c609881078552e7d2f",
+        "id": "ed8f78fd8e6d4c23a5eec43067c0b94b",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/ed8f78fd8e6d4c23a5eec43067c0b94b.json"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "task_expiration_schema",
+        "task_expiration",
+        "task_contract_tests"
+      ],
+      "id": "assemble",
+      "result": {
+        "manifest": {
+          "files": {
+            "generated_tests/test_rule_contract.py": "8ee8d8651c76bd0239d6f3cee2364addfe666adcf56a382cdb7c9e4719257f74",
+            "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+            "service/shortener/app.py": "2f191ee6b9a53dc1bd6443c0ff0429c928f6647efc8b0049a7702dbbff145c20"
+          },
+          "hash": "892c93d5f5dea959a04e048edf463a157e937cccbf72a3dd78da9dddff186330"
+        },
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/candidates/b4b1d936b8d14285981369da310b3a8f"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "assemble"
+      ],
+      "id": "validate_0",
+      "result": {
+        "hash": "56545ac1270d8449914fb1d8a5d8d4187744f4a4ddbfe4d2a2e1976a37b4908f",
+        "id": "72c721b2297144888f8786b41a3e6d3d",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/72c721b2297144888f8786b41a3e6d3d.json"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "assemble"
+      ],
+      "id": "review_0",
+      "result": {
+        "hash": "0f90958a2cb1c29f0e3fd89d3910758e730f1436affa4457692219da6249c58d",
+        "id": "94340679833646d08bc134edcaf29c18",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/94340679833646d08bc134edcaf29c18.json"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "status": "passed"
+    },
+    {
+      "attempts": 0,
+      "dependencies": [
+        "validate_0",
+        "review_0"
+      ],
+      "id": "validation_join",
+      "result": null,
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "status": "passed"
+    },
+    {
+      "attempts": 1,
+      "dependencies": [
+        "validation_join"
+      ],
+      "id": "docs",
+      "result": {
+        "hash": "e4cd0a7a89452557ce5df8f1617ff5ad5497e6f9aec7e95d24fe550ee875c2ee",
+        "id": "5f33d931cfc24df7a50f846f6bdddd2a",
+        "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/5f33d931cfc24df7a50f846f6bdddd2a.json"
+      },
+      "revision": 1,
+      "run_id": "9e6bd9e60df1",
+      "status": "passed"
+    }
+  ],
+  "runs": [
+    {
+      "created_at": "2026-10-20T04:49:30.399490+00:00",
+      "data": {
+        "active_seconds": 3.879448709078133,
+        "alias_max": 32,
+        "alias_min": 4,
+        "answers": "",
+        "base": {
+          "manifest": {
+            "files": {
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "b2c95bc2f98e2b23bb5219c4078d98f3777352f95c7c471fa504cc617a864693"
+            },
+            "hash": "e3c23c3b80a66bc227aec175c1ac3cf3f1e82dc50ad3f0e629a8b7623da076e4"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/base-1"
+        },
+        "baseline": null,
+        "budget_limits": {
+          "active_seconds": 1800,
+          "calls": 20
+        },
+        "calls": 6,
+        "candidate": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "d29f33ee35a644101750398c4a4be746315874bb9506a47ff85d07203ca2a487",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "aaefe9acf6fdb843e25288d4bb61ac5ea7771dd6040a5b958fd6dfe2014295b3"
+            },
+            "hash": "898bb86247d5b92fa97e5496e8238865f44dc2aa13b8c39e341621893f7781e7"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/candidates/da8ec9cb0b6246f2acec7cab9772d586"
+        },
+        "expected_current": null,
+        "fault_injected": false,
+        "inject_fault": false,
+        "pending": null,
+        "release": {
+          "hash": "ab1f3c08ab892420472a701283e0791816458e78c820052685e9eef0a7db155d",
+          "id": "f4b51b969f614100ae96d71d0e241798",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/f4b51b969f614100ae96d71d0e241798.json"
+        },
+        "repairs": 0,
+        "replans": 0,
+        "requirement": "Build a URL shortener with creation, redirects, aggregate counts and health.",
+        "stop_requested": false
+      },
+      "id": "c4a516cb56ff",
+      "mode": "local",
+      "revision": 1,
+      "scenario": "greenfield",
+      "status": "succeeded",
+      "updated_at": "2026-10-20T04:49:34.286665+00:00"
+    },
+    {
+      "created_at": "2026-10-20T04:49:34.300852+00:00",
+      "data": {
+        "active_seconds": 3.4546474169474095,
+        "alias_max": 32,
+        "alias_min": 4,
+        "answers": "",
+        "approved_plan": "f95c66598e54424f75d5b6c56bc4e03015e1164e76c8fd2ba014f8158663e551",
+        "base": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "d29f33ee35a644101750398c4a4be746315874bb9506a47ff85d07203ca2a487",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "aaefe9acf6fdb843e25288d4bb61ac5ea7771dd6040a5b958fd6dfe2014295b3"
+            },
+            "hash": "898bb86247d5b92fa97e5496e8238865f44dc2aa13b8c39e341621893f7781e7"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/candidates/da8ec9cb0b6246f2acec7cab9772d586"
+        },
+        "baseline": {
+          "hash": "ab1f3c08ab892420472a701283e0791816458e78c820052685e9eef0a7db155d",
+          "id": "f4b51b969f614100ae96d71d0e241798",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/f4b51b969f614100ae96d71d0e241798.json"
+        },
+        "budget_limits": {
+          "active_seconds": 1800,
+          "calls": 20
+        },
+        "calls": 7,
+        "candidate": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "e7a1bb4718c5ed82c44ab032f8bc4c7c075942099a45761792b14ef0551947a2",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "c59913a7ea099ae390f212b2d9bf7f375977e11e29e68a596308c89c8bad672a"
+            },
+            "hash": "5afdfd2d81d154013546ea133f2177d6e36820c9a6d90eaa540db8f1c873ac3a"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/candidates/1a413c9d85fe469089efaffa35894332"
+        },
+        "expected_current": "ab1f3c08ab892420472a701283e0791816458e78c820052685e9eef0a7db155d",
+        "fault_injected": false,
+        "inject_fault": false,
+        "pending": null,
+        "release": {
+          "hash": "6cba1a8c57e6c6739dcfec645755bf53d817706fac1072968f557e2925f6fdba",
+          "id": "d655abc2aa5f4f55a3b0fbd52508ccdc",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/20f124ee360a/artifacts/d655abc2aa5f4f55a3b0fbd52508ccdc.json"
+        },
+        "repairs": 0,
+        "replans": 0,
+        "requirement": "Add optional link expiration while preserving existing links and counts.",
+        "stop_requested": false
+      },
+      "id": "20f124ee360a",
+      "mode": "local",
+      "revision": 1,
+      "scenario": "brownfield",
+      "status": "succeeded",
+      "updated_at": "2026-10-20T04:49:37.765665+00:00"
+    },
+    {
+      "created_at": "2026-10-20T04:49:41.010320+00:00",
+      "data": {
+        "active_seconds": 6.789523000596091,
+        "alias_max": 32,
+        "alias_min": 4,
+        "answers": "Change the approved alias acceptance rule to 4-32 characters; retain duplicate 409 and random defaults.",
+        "approved_plan": "2c630d8107358d9ada678a3b6235f3761526b9396b9d24b362451471f09e03d3",
+        "base": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "d29f33ee35a644101750398c4a4be746315874bb9506a47ff85d07203ca2a487",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "aaefe9acf6fdb843e25288d4bb61ac5ea7771dd6040a5b958fd6dfe2014295b3"
+            },
+            "hash": "898bb86247d5b92fa97e5496e8238865f44dc2aa13b8c39e341621893f7781e7"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/candidates/da8ec9cb0b6246f2acec7cab9772d586"
+        },
+        "baseline": {
+          "hash": "ab1f3c08ab892420472a701283e0791816458e78c820052685e9eef0a7db155d",
+          "id": "f4b51b969f614100ae96d71d0e241798",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/c4a516cb56ff/artifacts/f4b51b969f614100ae96d71d0e241798.json"
+        },
+        "budget_limits": {
+          "active_seconds": 1800,
+          "calls": 20
+        },
+        "calls": 13,
+        "candidate": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "22916f019252fda44f83b3c23ed9a9f09123e873059d87746cee6760bdd5d1ea",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "7a9ee4bf6b5814eb2ec4f8a64216511238b717706ef0d75049707b471ec216e2"
+            },
+            "hash": "e51fc080641616a1b62142b5711295babca03e73db002d99d67d5f8b84fdd4a9"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/candidates/4a6bf6ec99014090b6a3b2650bdf3f00"
+        },
+        "expected_current": "ab1f3c08ab892420472a701283e0791816458e78c820052685e9eef0a7db155d",
+        "fault_injected": false,
+        "inject_fault": false,
+        "normalization_contract": "Implement shortener.app.create_app(db_path, clock=None, code_factory=None).\nclock returns an aware UTC datetime. code_factory returns a string. Defaults use UTC now\nand a cryptographic eight-character alphanumeric code. POST /api/links accepts {url} and\nreturns 201 {code, short_url}. GET /r/{code} returns 302 with Cache-Control: no-store,\nincrements redirect_count atomically, and returns 404 for unknown codes. GET\n/api/links/{code}/stats returns code, created_at and redirect_count (404 if unknown).\nGET /health is process health. BASE_URL environment defaults to http://localhost:8000;\nnever trust incoming Host for short_url. Use SQLite, parameterized SQL, bounded busy\ntimeout and atomic transactions. Three total collision insert attempts, then\n503 detail=code_generation_exhausted. Database errors are 503 detail=database_unavailable,\nincluding an unusable DB path, without crashing create_app. Reject invalid input with\n422: URL length >2048, absent host, schemes other than http/https, credentials, or\ncontrol characters. Never fetch targets. All code is inside service/shortener/*.py;\nno dependency installation, configuration files, tools, network access, or deletions.\nRuntime dependencies are FastAPI, pydantic and Python stdlib. Tests may use pytest/httpx.\nAfter human clarification, add optional alias at creation. Aliases are\n8-8 lowercase alphanumeric or hyphen characters. Missing alias\nretains random generation. Duplicate aliases return 409. Reserved names are api, r,\nhealth, stats, admin, docs, redoc, openapi (422). Respect ALIAS_MIN_LENGTH and\nALIAS_MAX_LENGTH environment values for the accepted contract. Use the same code\nnamespace; DB uniqueness is authoritative. Existing endpoints remain compatible.\n",
+        "pending": null,
+        "release": {
+          "hash": "62759ceac4c4448e340ed1d3d4637711458cd0d70731c0259692cfe103de7452",
+          "id": "bae0e7b498bd47c3a53fe2674aff435a",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/bae0e7b498bd47c3a53fe2674aff435a.json"
+        },
+        "repairs": 0,
+        "replans": 2,
+        "requirement": "Make links easier to share.",
+        "stop_requested": false
+      },
+      "id": "6ca802b467d3",
+      "mode": "local",
+      "revision": 3,
+      "scenario": "ambiguous",
+      "status": "succeeded",
+      "updated_at": "2026-10-20T04:49:47.831715+00:00"
+    },
+    {
+      "created_at": "2026-10-20T04:49:47.848427+00:00",
+      "data": {
+        "active_seconds": 0.09794266684912145,
+        "alias_max": 32,
+        "alias_min": 4,
+        "answers": "",
+        "approved_plan": "aadc8980b5050007117c28497d5a62228d040e84563522cc90124585995e07c1",
+        "base": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "22916f019252fda44f83b3c23ed9a9f09123e873059d87746cee6760bdd5d1ea",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "7a9ee4bf6b5814eb2ec4f8a64216511238b717706ef0d75049707b471ec216e2"
+            },
+            "hash": "e51fc080641616a1b62142b5711295babca03e73db002d99d67d5f8b84fdd4a9"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/candidates/4a6bf6ec99014090b6a3b2650bdf3f00"
+        },
+        "baseline": {
+          "hash": "62759ceac4c4448e340ed1d3d4637711458cd0d70731c0259692cfe103de7452",
+          "id": "bae0e7b498bd47c3a53fe2674aff435a",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/bae0e7b498bd47c3a53fe2674aff435a.json"
+        },
+        "budget_limits": {
+          "active_seconds": 1800,
+          "calls": 2
+        },
+        "calls": 2,
+        "error": "Role dispatch budget exhausted",
+        "expected_current": "62759ceac4c4448e340ed1d3d4637711458cd0d70731c0259692cfe103de7452",
+        "fault_injected": false,
+        "handoff": {
+          "hash": "4a4bc92adc75b6a1bc2348cf2e6ebeea649d0e43a1a3141d0feb75346d5ce675",
+          "id": "f158b06ecec1422e8132f1d5be2296fb",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/270d505de031/artifacts/f158b06ecec1422e8132f1d5be2296fb.json"
+        },
+        "inject_fault": false,
+        "pending": null,
+        "recovery_child": "9e6bd9e60df1",
+        "repairs": 0,
+        "replans": 0,
+        "requirement": "Add optional link expiration while preserving existing links and counts.",
+        "stop_requested": false
+      },
+      "id": "270d505de031",
+      "mode": "local",
+      "revision": 1,
+      "scenario": "brownfield",
+      "status": "failed",
+      "updated_at": "2026-10-20T04:49:47.956174+00:00"
+    },
+    {
+      "created_at": "2026-10-20T04:49:47.956174+00:00",
+      "data": {
+        "active_seconds": 3.445441500050947,
+        "alias_max": 32,
+        "alias_min": 4,
+        "answers": "",
+        "approved_plan": "dad1ec0791ed62c618880589434ead3885944887a43ce938e1e8d2a0aa92c28d",
+        "base": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "22916f019252fda44f83b3c23ed9a9f09123e873059d87746cee6760bdd5d1ea",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "7a9ee4bf6b5814eb2ec4f8a64216511238b717706ef0d75049707b471ec216e2"
+            },
+            "hash": "e51fc080641616a1b62142b5711295babca03e73db002d99d67d5f8b84fdd4a9"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/candidates/4a6bf6ec99014090b6a3b2650bdf3f00"
+        },
+        "baseline": {
+          "hash": "62759ceac4c4448e340ed1d3d4637711458cd0d70731c0259692cfe103de7452",
+          "id": "bae0e7b498bd47c3a53fe2674aff435a",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/6ca802b467d3/artifacts/bae0e7b498bd47c3a53fe2674aff435a.json"
+        },
+        "budget_limits": {
+          "active_seconds": 1800,
+          "calls": 20
+        },
+        "calls": 7,
+        "candidate": {
+          "manifest": {
+            "files": {
+              "generated_tests/test_rule_contract.py": "8ee8d8651c76bd0239d6f3cee2364addfe666adcf56a382cdb7c9e4719257f74",
+              "service/shortener/__init__.py": "9832d52334353c01044ef7e17052fa759084759e44f1321da59a919856722e76",
+              "service/shortener/app.py": "2f191ee6b9a53dc1bd6443c0ff0429c928f6647efc8b0049a7702dbbff145c20"
+            },
+            "hash": "892c93d5f5dea959a04e048edf463a157e937cccbf72a3dd78da9dddff186330"
+          },
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/candidates/b4b1d936b8d14285981369da310b3a8f"
+        },
+        "expected_current": "62759ceac4c4448e340ed1d3d4637711458cd0d70731c0259692cfe103de7452",
+        "fault_injected": false,
+        "inject_fault": false,
+        "pending": null,
+        "recovery": {
+          "actor": "scripted-local-demo-operator",
+          "handoff_hash": "4a4bc92adc75b6a1bc2348cf2e6ebeea649d0e43a1a3141d0feb75346d5ce675",
+          "handoff_id": "f158b06ecec1422e8132f1d5be2296fb",
+          "instructions": "Use the standard bounded budget; preserve the API and current accepted source.",
+          "parent_revision": 1,
+          "parent_run": "270d505de031"
+        },
+        "release": {
+          "hash": "b757fa3937afff5fa12a0e7c4f0b0516a72e13e3ef03f835c5ebcad3694a01d6",
+          "id": "c2cfc7bbe1bd44e383eff916b6fd661e",
+          "path": "/workspace/agentic-url-shortener/tmp/scenarios-20261019-clean/9e6bd9e60df1/artifacts/c2cfc7bbe1bd44e383eff916b6fd661e.json"
+        },
+        "repairs": 0,
+        "replans": 0,
+        "requirement": "Add optional link expiration while preserving existing links and counts.",
+        "stop_requested": false
+      },
+      "id": "9e6bd9e60df1",
+      "mode": "local",
+      "revision": 1,
+      "scenario": "brownfield",
+      "status": "succeeded",
+      "updated_at": "2026-10-20T04:49:51.413766+00:00"
+    }
+  ]
+}
